@@ -22,6 +22,9 @@ $currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1; //デフォルトは１
 $category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
 // ソート順
 $sort = (!empty($_GET['sort'])) ? $_GET['sort'] : '';
+// 価格帯でのフィルター
+$price = (!empty($_GET['price'])) ? $_GET['price'] : '';
+
 // パラメータに不正な値が入っているかチェック
 if(!is_int((int)$currentPageNum)){
   error_log('エラー発生:指定ページに不正な値が入りました');
@@ -32,7 +35,7 @@ $listSpan = 20;
 // 現在の表示レコード先頭を算出
 $currentMinNum = (($currentPageNum-1)*$listSpan); //1ページ目なら(1-1)*20 = 0 、 ２ページ目なら(2-1)*20 = 20
 // DBから商品データを取得
-$dbProductData = getProductList($currentMinNum, $category, $sort);
+$dbProductData = getProductList($currentMinNum, $category, $sort, $price);//各種ソートフラグを渡して、プロダクトテーブルから取得する内容を絞る
 // DBからカテゴリデータを取得
 $dbCategoryData = getCategory();
 //debug('DBデータ：'.print_r($dbFormData,true));
@@ -83,6 +86,18 @@ require('head.php');
               <option value="2" <?php if(getFormData('sort',true) == 2 ){ echo 'selected'; } ?> >金額が高い順</option>
             </select>
           </div>
+          <h1 class="title">価格</h1>
+          <div class="selectbox">
+            <span class="icn_select"></span>
+            <select name="price">
+              <option value="0" <?php if(getFormData('price',true) == 0 ){ echo 'selected'; } ?> >選択してください</option>
+              <option value="1" <?php if(getFormData('price',true) == 1 ){ echo 'selected'; } ?> >0 ~ 1500</option>
+              <option value="2" <?php if(getFormData('price',true) == 2 ){ echo 'selected'; } ?> >1500 ~ 3000</option>
+              <option value="3" <?php if(getFormData('price',true) == 3 ){ echo 'selected'; } ?> >3000 ~ 5000</option>
+              <option value="4" <?php if(getFormData('price',true) == 4 ){ echo 'selected'; } ?> >5000 ~ 10000</option>
+              <option value="5" <?php if(getFormData('price',true) == 5 ){ echo 'selected'; } ?> >10000~</option>
+            </select>
+          </div>
           <input type="submit" value="検索">
         </form>
 
@@ -90,6 +105,7 @@ require('head.php');
 
       <!-- Main -->
       <section id="main" >
+
         <div class="search-title">
           <div class="search-left">
             <span class="total-num"><?php echo sanitize($dbProductData['total']); ?></span>件の商品が見つかりました
@@ -98,8 +114,9 @@ require('head.php');
             <span class="num"><?php echo (!empty($dbProductData['data'])) ? $currentMinNum+1 : 0; ?></span> - <span class="num"><?php echo $currentMinNum+count($dbProductData['data']); ?></span>件 / <span class="num"><?php echo sanitize($dbProductData['total']); ?></span>件中
           </div>
         </div>
+
         <div class="panel-list">
-         <?php
+        <?php
             foreach($dbProductData['data'] as $key => $val):
           ?>
             <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : '?p_id='.$val['id']; ?>" class="panel">
@@ -110,9 +127,9 @@ require('head.php');
                 <p class="panel-title"><?php echo sanitize($val['name']); ?> <span class="price">¥<?php echo sanitize(number_format($val['price'])); ?></span></p>
               </div>
             </a>
-          <?php
-            endforeach;
-          ?>
+        <?php
+          endforeach;
+        ?>
         </div>
         
         <?php pagination($currentPageNum, $dbProductData['total_page']); ?>
