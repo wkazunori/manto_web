@@ -52110,3 +52110,2365 @@
 )
 
 [15-Mar-2019 11:59:10 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：セッションID：ha6q1th1vmatfq1u9osr81jhqt
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552789015
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:16:55 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：セッションID：sef537iiobfptfthf7a4e6ifau
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552789739
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:28:59 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：セッションID：v2r4ik6ve6a965bcbopkctmhi7
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552790173
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:36:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：セッションID：n7q4v5k0nchctas5e6j96l87n3
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552791069
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 11:51:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：セッションID：eiq7kuacirjij60va4vt6ob6gf
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552793232
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:12 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：セッションID：8vmt291vhdjrfvolvc41kbnb0i
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552793233
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 40
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：セッションID：klgk1pr4u4ttka6mviqboroo6i
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552793235
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:15 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：セッションID：ck7u6rc2l6av7ninhfkhu7p2gf
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552793238
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 12:27:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：セッションID：3g30lqc55dfnh60u3342s9r58e
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795584
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:06:24 Asia/Tokyo] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /Applications/MAMP/htdocs/manto_web/function.php on line 332
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:06:24 Asia/Tokyo] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /Applications/MAMP/htdocs/manto_web/function.php on line 382
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:06:24 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：セッションID：upmqukde3hofput7r76gi004h4
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795751
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:09:11 Asia/Tokyo] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /Applications/MAMP/htdocs/manto_web/function.php on line 332
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:09:11 Asia/Tokyo] PHP Warning:  preg_match(): Delimiter must not be alphanumeric or backslash in /Applications/MAMP/htdocs/manto_web/function.php on line 382
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:09:11 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：セッションID：9n2hvru3i92uiuasbtr28rr552
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795946
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:26 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：セッションID：moae8kp104lekahi2ec41oprqp
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795950
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price BETWEEN 1500 AND 3000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:30 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：セッションID：r07r18sqcto9ur8omflo5umb2f
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795953
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:33 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：セッションID：jvbn1tmioqfgl3kmo5vtd4nq5c
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795957
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:37 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：セッションID：2bsmggdccgbq9632ik7iuf1qpe
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795959
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：セッションID：u1lvqphpj4d4tiijhk23cibqnu
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552795963
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:12:43 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：セッションID：4b2fnqf7gru0u1jgqc7dpo7nvm
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796046
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price BETWEEN 5000 AND 10000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:06 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：セッションID：6aa20btpdv6qmhb8rmqsb2n50b
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796049
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：セッションID：voj41tjtqro0gbgh0hp1ndaqhg
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796052
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:12 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：セッションID：mqqqcal7bmqmvq4bdft1m9ljnk
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796056
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:14:16 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 2 WHERE  price >= 15000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:14:16 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:372
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '2', '2', '5')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 372
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：セッションID：cpnmuvn7mrcfau0l1iu58tdsub
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796058
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：セッションID：jk8ncgoof6msahivo5qus4tsse
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796060
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:14:20 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE  price >= 15000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:14:20 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:372
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '5')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 372
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：セッションID：2dqhfbb7dbb4tic9u3bifu08d3
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796063
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:23 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：セッションID：4dn5lj330ohvgejt112hdqju32
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796066
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 1 WHERE  price >= 15000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:14:26 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:372
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '1', '2', '5')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 372
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：セッションID：oe1qh9m051loddo45fjqli8f1r
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796066
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:26 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：セッションID：6qs6kgghro1pn0gasjars4jp82
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796069
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:14:29 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE  price >= 15000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:14:29 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:372
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '5')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 372
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：セッションID：b8k3r25v0kjlj7jk1ef670i38h
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796070
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:30 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：セッションID：hct6ubvd7r90dnmrlr3ipqhcno
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796075
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:14:35 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 4 WHERE  price >= 15000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:14:35 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:372
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '4', '2', '5')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 372
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：セッションID：6gk8aq0ruaimehhmlgg3ogk2el
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796076
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:36 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：セッションID：gr2rfl82ue5r0jp85jha9inrbb
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796080
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:40 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：セッションID：2sk37f9vcnt4q4akqvkp3fi7sv
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796093
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:53 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：セッションID：gb0nligk68b032sm2nvknec8lc
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796095
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE category_id = 2 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:14:55 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：セッションID：dqn52ut7nii2h5km7vimnimrjg
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796305
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE category_id = 2 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:25 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：セッションID：qgn3g7q2qupqrkc7rjqek5992l
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796308
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：セッションID：d6aiv1nj9t0ipmg54i8h62n8hg
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796313
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:18:33 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 0 AND 1500
+)
+
+[17-Mar-2019 13:18:33 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:372
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '', '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 372
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：セッションID：uk14gpgujlo8ip5ak077kjmopo
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796335
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:18:55 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：セッションID：3222fdfv4dftpkvr2muie6784i
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796343
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:19:03 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 4 WHERE price BETWEEN 0 AND 1500
+)
+
+[17-Mar-2019 13:19:03 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:372
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '4', '', '1')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 372
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：セッションID：mml53ej7ivuog3n7bih7kgjm02
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796344
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:04 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：セッションID：0fnmavs12ql62vhsipa6t0psnk
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796348
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE  price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:08 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：セッションID：bd42rrs1kgmeuq2eeali9moubl
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796356
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：SQL：SELECT * FROM product WHERE category_id = 5 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:19:16 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：セッションID：u971bs8s6m8bjpkn222k1d51e4
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796788
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:26:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：セッションID：59o53lti3eq0v2c2i9vissc2m2
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796793
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:26:33 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：セッションID：v8j6n7tstm62gthkr3lenqjgtg
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796796
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:26:36 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:26:36 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:373
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '2')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 373
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：セッションID：i3deglrguts0qh1qd1n2g9o8rt
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796952
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:29:12 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：セッションID：rr0s14ff842uank8jluhm1r893
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552796971
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:29:31 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:29:31 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:374
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '2')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 374
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：セッションID：0q1vjhpeqa20q71njumlf9j6v1
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797011
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:30:11 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:30:11 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:374
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '2')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 374
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：セッションID：lkbhkbucb3b2h3dhrgo7lsqdui
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797013
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:30:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：セッションID：ib2bu4f8nccnion0300ka90pmo
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797089
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:31:29 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：セッションID：65bqrlab3s7sbu4f1hatgrq9rf
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797092
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:31:32 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:31:32 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:374
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '2')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 374
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：セッションID：3gvbstr7tacguc27gpqnimtcd7
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797093
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:31:33 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：セッションID：vcv52gg85862aupucv0o9htan6
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797142
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:32:22 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:32:22 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:374
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '2')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 374
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：セッションID：bq7p8m9jt1nqmmp096st0voct2
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797209
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：クエリに失敗しました。
+[17-Mar-2019 13:33:29 Asia/Tokyo] デバッグ：失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT id FROM product WHERE category_id = 5 WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+)
+
+[17-Mar-2019 13:33:29 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on integer in /Applications/MAMP/htdocs/manto_web/function.php:374
+Stack trace:
+#0 /Applications/MAMP/htdocs/manto_web/index.php(38): getProductList(0, '5', '2', '2')
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/manto_web/function.php on line 374
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：セッションID：8maov706887qd82qr5130l3i7a
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797238
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:33:58 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：セッションID：nkqjubpni19acmnfbth4lgmv75
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797240
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:34:00 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：セッションID：lvsqmu2nf9ecduglsoght140qa
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797357
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 ORDER BY price DESC
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:35:57 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：セッションID：rh9fc59d2023u5q9lmpsicnfcf
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797362
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price >= 15000 ORDER BY price DESC
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:02 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：セッションID：kop8rr5pn7qkkach9d91e4unc4
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797364
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:04 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：セッションID：351i6olk60mbgsp7hocsma98tr
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797369
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 1500 AND 3000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：セッションID：559ns26ueb8h10uap1ulpprqpf
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797375
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:15 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：セッションID：fu9vmort8mlr67dn2sjva1i895
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797382
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:22 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：セッションID：8lt2tp2tn121k7osfases8173m
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797385
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 1500 AND 3000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:25 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：セッションID：3mfmu3i0dlsfnf0jmp9pps37c2
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797386
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:36:26 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：セッションID：qr4rf381ctgoknud0s46jau7qo
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797448
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 1500 AND 3000
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:28 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 1500 AND 3000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:37:29 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:29 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:37:29 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:29 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：セッションID：6rk8787fp60o49i2pe17odc65s
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797451
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:31 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：セッションID：8fkdqtpj3krhvla38ao371854b
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797454
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:37:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：セッションID：guslqqr7ofcnab72nt4he67qlg
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797504
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 1500 AND 3000
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 1500 AND 3000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:24 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：セッションID：m6p4m2l352jukn264435tnirqb
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797507
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price >= 15000
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price >= 15000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:27 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：セッションID：us9968koivakh6dismhqk5pafk
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797510
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 0 AND 1500
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:30 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：セッションID：o1d1qi8q2mrd2vfpf0ne9lpi8h
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797514
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：セッションID：gnu5v8cmbrngp4nah3lkokmeni
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797517
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 1
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 1 AND price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 1 AND price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:37 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：セッションID：0idem7qh29u6agf36998vbpa6o
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797520
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 2
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 2 AND price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 2 AND price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:40 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：セッションID：dmikqjieitk3mb2l0u7vhrl5tf
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797525
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 4
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 4 AND price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 4 AND price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:45 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：セッションID：n1hltfmffu632lski4hv35kqi3
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797528
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:38:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：セッションID：0aaq1cc2vbhes8c374rrcgc2p8
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797644
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price >= 15000 ORDER BY price DESC
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:44 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：セッションID：ns03gvoklr5j189rs0fufclkfq
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797647
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 5000 AND 10000 ORDER BY price DESC
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 5000 AND 10000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:47 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：セッションID：nf5m0ms886b23p5hfbfm9rqih2
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797649
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 3000 AND 5000 ORDER BY price DESC
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 3000 AND 5000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:49 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：セッションID：faj9k40dku25ldg2i5nl7shvlk
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797651
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 1500 AND 3000 ORDER BY price DESC
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 1500 AND 3000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：セッションID：l4vbaf59ec4kcufke4m8201int
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797654
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price >= 15000 ORDER BY price DESC
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price >= 15000 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:40:54 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：セッションID：1dk7fd283bcr0sb56sjjdn22l0
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797661
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:01 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：セッションID：tm46p5e2v7b7abdiobfbqb59t6
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797665
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：セッションID：3h3n9sp6f2vri6cgqn0n3umv4q
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797667
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 0 AND 1500 ORDER BY price DESC
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 0 AND 1500 ORDER BY price DESC LIMIT 20 OFFSET 0
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:07 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：セッションID：fvbbk63iaqvads5235uvjn74pq
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797669
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：セッションID：a6inobqu5a2l845888sl21911l
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797679
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 1
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 1 AND price >= 15000
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 1 AND price >= 15000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:19 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：セッションID：uoqlh1vn4ljne8i0o514srngbh
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797684
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:24 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：セッションID：snc5qrsclr68704ra2kjj6gcom
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797686
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:41:26 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：セッションID：ei92ouidpto3qdo2m90nffqmsl
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797772
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 1
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 1 AND price >= 15000
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 1 AND price >= 15000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:42:52 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：セッションID：57485tpnjc00ktfu3cb0e1mrff
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552797779
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:42:59 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：セッションID：s62cuidk9v0fpnfu5c42hkgvfp
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798084
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:04 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：セッションID：cj6i0hbg0kgesijeidgjddf6vd
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798085
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：セッションID：5814u35ckc7oe7nbif46qvno3c
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798094
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 1500 AND 3000
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 1500 AND 3000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:14 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：セッションID：cjmhk0sblq0bdi2hdp8grjrrq1
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798099
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE price BETWEEN 0 AND 1500
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:19 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：セッションID：4ue5jl9r9n7i86n1t1mldm1qgc
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798101
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:48:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：セッションID：21mkafnupuplple9bkrtstbm19
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798179
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 1
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 1
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 1 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：セッションID：cn4un396c3meanb48gja8j66s3
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798184
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:44 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：セッションID：fr0hfra0c88uu3f13gsstscu29
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798186
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:49:46 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：セッションID：ja22lu7nt99tr92m5cjtbmvqb6
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798276
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 3
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 3 AND price BETWEEN 3000 AND 5000
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 3 AND price BETWEEN 3000 AND 5000 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:16 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：セッションID：jsiieal0a3bvjkqe6vkvh6p3h7
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798282
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:22 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：セッションID：mtekifso6km6djmnrns4ce0r9g
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798299
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：「　トップページ　
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：セッションID：tdikr3e5nkauhmme4ibmkocp02
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552622624
+    [login_limit] => 2592000
+    [user_id] => 4
+    [msg_success] => 
+)
+
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552798301
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：商品情報を取得します。
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product WHERE category_id = 5
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product WHERE category_id = 5 AND price BETWEEN 0 AND 1500 LIMIT 20 OFFSET 0
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 13:51:41 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -319,7 +319,7 @@ function getProduct($u_id, $p_id){
     error_log('エラー発生:' . $e->getMessage());
   }
 }
-function getProductList($currentMinNum = 1, $category, $sort, $span = 20){
+function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20){
   debug('商品情報を取得します。');
   //例外処理
   try {
@@ -328,6 +328,34 @@ function getProductList($currentMinNum = 1, $category, $sort, $span = 20){
     // 件数用のSQL文作成
     $sql = 'SELECT id FROM product';
     if(!empty($category)) $sql .= ' WHERE category_id = '.$category;
+    
+    debug('baseSQL：'.$sql);
+    if(preg_match("/WHERE/", $sql)){//preg_match 文字列が含むかどうか判定
+      $junction = ' AND';
+    } else {
+      $junction = ' WHERE'; //$junction =接続詞用変数
+    }
+
+    if(!empty($price)){
+      switch($price){
+        case 1:
+          $sql .= $junction.' price BETWEEN 0 AND 1500';
+          break;
+        case 2:
+          $sql .= $junction.' price BETWEEN 1500 AND 3000';
+          break;
+        case 3:
+          $sql .= $junction.' price BETWEEN 3000 AND 5000';
+          break;
+        case 4:
+          $sql .= $junction.' price BETWEEN 5000 AND 10000';
+          break;
+        case 5:
+          $sql .= $junction.' price >= 15000';
+          break;
+      }
+    } 
+
     if(!empty($sort)){
       switch($sort){
         case 1:
@@ -338,7 +366,9 @@ function getProductList($currentMinNum = 1, $category, $sort, $span = 20){
           break;
       }
     } 
+
     $data = array();
+    debug('ソート用SQL：'.$sql);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
     $rst['total'] = $stmt->rowCount(); //総レコード数
@@ -350,6 +380,33 @@ function getProductList($currentMinNum = 1, $category, $sort, $span = 20){
     // ページング用のSQL文作成
     $sql = 'SELECT * FROM product';
     if(!empty($category)) $sql .= ' WHERE category_id = '.$category;
+    
+    if( !preg_match("/WHERE/", $sql)){//preg_match 文字列が含むかどうか判定
+      $junction = ' WHERE'; //$junction =接続詞用変数
+    } else {
+      $junction = ' AND';
+    }
+
+    if(!empty($price)){
+      switch($price){
+        case 1:
+          $sql .= $junction.' price BETWEEN 0 AND 1500';
+          break;
+        case 2:
+          $sql .= $junction.' price BETWEEN 1500 AND 3000';
+          break;
+        case 3:
+          $sql .= $junction.' price BETWEEN 3000 AND 5000';
+          break;
+        case 4:
+          $sql .= $junction.' price BETWEEN 5000 AND 10000';
+          break;
+        case 5:
+          $sql .= $junction.' price >= 15000';
+          break;
+      }
+    } 
+    
     if(!empty($sort)){
       switch($sort){
         case 1:
@@ -360,9 +417,10 @@ function getProductList($currentMinNum = 1, $category, $sort, $span = 20){
           break;
       }
     } 
+
     $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
     $data = array();
-    debug('SQL：'.$sql);
+    debug('ページング用SQL：'.$sql);
     // クエリ実行
     $stmt = queryPost($dbh, $sql, $data);
 
@@ -616,6 +674,8 @@ function getFormData($str, $flg = false){
     $method = $_POST;
   }
   global $dbFormData;
+  // DBのusersテーブルからユーザーデータを取得 $dbFormData = getUser($_SESSION['user_id']); -->
+
   // ユーザーデータがある場合
   if(!empty($dbFormData)){
     //フォームのエラーがある場合
