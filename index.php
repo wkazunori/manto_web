@@ -22,7 +22,7 @@ $currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1; //デフォルトは１
 $category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
 // ソート順
 $sort = (!empty($_GET['sort'])) ? $_GET['sort'] : '';
-// 価格でのソート
+// 価格帯でのフィルター
 $price = (!empty($_GET['price'])) ? $_GET['price'] : '';
 
 // パラメータに不正な値が入っているかチェック
