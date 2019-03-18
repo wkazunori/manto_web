@@ -68,6 +68,7 @@ define('MSG14', '文字で入力してください');
 define('MSG15', '正しくありません');
 define('MSG16', '有効期限が切れています');
 define('MSG17', '半角数字のみご利用いただけます');
+define('MSG18', '未選択です。選択してください。');
 define('SUC01', 'パスワードを変更しました');
 define('SUC02', 'プロフィールを変更しました');
 define('SUC03', 'メールを送信しました');
@@ -186,13 +187,24 @@ function validPass($str, $key){
   //最小文字数チェック
   validMinLen($str, $key);
 }
-//selectboxチェック
+//selectboxチェック(ID)
 function validSelect($str, $key){
   if(!preg_match("/^[0-9]+$/", $str)){
+    global $err_msg;
+    $err_msg[$key] = MSG18;
+  }
+}
+//selectboxチェック(Text)
+function validSelectText($str, $key){
+  if($str == 0){
     global $err_msg;
     $err_msg[$key] = MSG15;
   }
 }
+
+
+
+
 //エラーメッセージ表示
 function getErrMsg($key){
   global $err_msg;
@@ -444,7 +456,7 @@ function getProductOne($p_id){
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT p.id , p.name , p.comment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category 
+    $sql = 'SELECT p.id , p.name , p.comment, p.shipment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category 
              FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
     $data = array(':p_id' => $p_id);
     // クエリ実行
