@@ -182,15 +182,6 @@ require('head.php');
                 ?>
               </select>
             </label>
-            <label class="<?php if(!empty($err_msg['shipment'])) echo 'err'; ?>">
-              発送目安<span class="label-require">必須</span>
-              <select name="shipment" id="">
-                <option value="0" <?php if(getFormData('shipment') == 0 ){ echo 'selected'; } ?> >選択してください</option>
-                <option value="1">1-2日で発送</option>
-                <option value="2">2-3日で発送</option>
-                <option value="3">4-7日で発送</option>
-              </select
-            </label>
 
             <div class="area-msg">
               <?php 
@@ -207,6 +198,15 @@ require('head.php');
               if(!empty($err_msg['comment'])) echo $err_msg['comment'];
               ?>
             </div>
+            <label class="<?php if(!empty($err_msg['shipment'])) echo 'err'; ?>">
+              発送目安<span class="label-require">必須</span>
+              <select name="shipment" id="">
+                <option value="0" <?php if(getFormData('shipment') == 0 ){ echo 'selected'; } ?> >選択してください</option>
+                <option value="1">1-2日で発送</option>
+                <option value="2">2-3日で発送</option>
+                <option value="3">4-7日で発送</option>
+              </select
+            </label>
             <label style="text-align:left;" class="<?php if(!empty($err_msg['price'])) echo 'err'; ?>">
               金額<span class="label-require">必須</span>
               <div class="form-group">
