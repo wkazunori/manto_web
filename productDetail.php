@@ -31,7 +31,6 @@ if(!empty($_POST['submit'])){
   //ログイン認証
   require('auth.php');
 
-  //明日ちゃんとmsgに行ける処理を追加
   //例外処理
   try {
     // DBへ接続
@@ -68,6 +67,19 @@ require('head.php');
         color: white;
         background: #7acee6;
         margin-right: 10px;
+        font-size: 16px;
+        vertical-align: middle;
+        position: relative;
+        top: -4px;
+      }
+      .badge-shipment{
+        margin-left: 5px;
+        margin-right: 10px;
+        border: solid 1px #ccc;
+        border-radius: 10px;
+        padding: 5px 10px;
+        background: #FFF;
+        color: #666666;
         font-size: 16px;
         vertical-align: middle;
         position: relative;
@@ -164,6 +176,7 @@ require('head.php');
         <div class="title">
           <span class="badge"><?php echo sanitize($viewData['category']); ?></span>
           <?php echo sanitize($viewData['name']); ?>
+          <span class="badge-shipment"><?php echo sanitize($viewData['shipment']); ?></span>
           <i class="fa fa-heart icn-like js-click-like <?php if(isLike($_SESSION['user_id'], $viewData['id'])){ echo 'active'; } ?>" aria-hidden="true" data-productid="<?php echo sanitize($viewData['id']); ?>" ></i>
         </div>
         <div class="product-img-container">
