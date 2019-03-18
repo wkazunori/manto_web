@@ -47,6 +47,7 @@ if(!empty($_POST)){
   //変数にユーザー情報を代入
   $name = $_POST['name'];
   $category = $_POST['category_id'];
+  $shipment = $_POST['shipment']; //発送の目安を受取る
   $price = (!empty($_POST['price'])) ? $_POST['price'] : 0; //０や空文字の場合は０を入れる。デフォルトのフォームには０が入っている。
   $comment = $_POST['comment'];
   //画像をアップロードし、パスを格納
@@ -181,6 +182,16 @@ require('head.php');
                 ?>
               </select>
             </label>
+            <label class="<?php if(!empty($err_msg['shipment'])) echo 'err'; ?>">
+              発送目安<span class="label-require">必須</span>
+              <select name="shipment" id="">
+                <option value="0" <?php if(getFormData('shipment') == 0 ){ echo 'selected'; } ?> >選択してください</option>
+                <option value="1">1-2日で発送</option>
+                <option value="2">2-3日で発送</option>
+                <option value="3">4-7日で発送</option>
+              </select
+            </label>
+
             <div class="area-msg">
               <?php 
               if(!empty($err_msg['category_id'])) echo $err_msg['category_id'];
