@@ -101,7 +101,7 @@ debug ('$err_msgの値'.print_r($err_msg,true));
     $stmt = queryPost($dbh, $sql, $data);
     // クエリ結果の値を取得
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
-    //array_shift関数は配列の先頭を取り出す関数です。クエリ結果は配列形式で入っているので、array_shiftで1つ目だけ取り出して判定します
+    
     debug('$resultの値:'.print_r($result,true));
 
     if($result['lock_flg'] == 5){
