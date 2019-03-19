@@ -56664,3 +56664,3568 @@ Stack trace:
             [create_date] => 2019-03-04 16:58:57
             [update_date] => 2019-03-18 00:00:00
         )
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：セッションID：687ebe37okv1313lio26391ba2
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977196
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => phxxx447@yahoo.co.jp
+    [pass] => ssssssssss
+)
+
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 4
+    [username] => f
+    [age] => 26
+    [tel] => 09099999999
+    [zip] => 0
+    [addr] => 
+    [email] => phxxx447@yahoo.co.jp
+    [password] => $2y$10$KNygekh518tr0ecvaQSbsuscbu74D69nZ8HqTKpBfFXI38RFMFRc6
+    [login_time] => 2019-03-01 17:30:40
+    [pic] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
+    [delete_flg] => 0
+    [lock_flg] => 9
+    [create_date] => 2019-03-01 17:30:40
+    [update_date] => 2019-03-01 17:30:40
+)
+
+[19-Mar-2019 15:33:16 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:43:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:43:00 Asia/Tokyo] デバッグ：「　ユーザー登録ページ　
+[19-Mar-2019 15:43:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:43:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:43:00 Asia/Tokyo] デバッグ：セッションID：q6dvvuedfi9oq777ikqvd2415k
+[19-Mar-2019 15:43:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:43:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977780
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：「　ユーザー登録ページ　
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：セッションID：g8v36rb6rnh13bjuvak4vqome3
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977800
+[19-Mar-2019 15:43:20 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552977801
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：「　マイページ　
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：セッションID：sp76ejcunfoe6tkae9i3p17kmg
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552977801
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977801
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1552981401
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：ユーザーID：6
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：ユーザーID：6
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[19-Mar-2019 15:43:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：「　マイページ　
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：セッションID：g5id8cuoi6eva3ni0pl2e3sjob
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552977801
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977973
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1552981401
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：ユーザーID：6
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：ユーザーID：6
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+)
+
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+)
+
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+)
+
+[19-Mar-2019 15:46:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：「　ログアウトページ　
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：セッションID：72qtjghprrahi4s4ohfon31fdr
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552977973
+    [login_limit] => 3600
+    [user_id] => 6
+)
+
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977974
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1552981573
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：ログアウトします。
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：ログインページへ遷移します。
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：セッションID：vru4c2tcfgoa8lftccq5utgicn
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977974
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:14 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：セッションID：jjelcm4rsaklhorv9jvmfsa5hi
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977992
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => phxxx447@yahoo.co.jp
+    [pass] => password
+    [pass_save] => on
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 4
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => phxxx447@yahoo.co.jp
+    [password] => $2y$10$yjPilrbHi6rUexDfTTWbOe8LOpSBkXUb5hLUEALdQuoA29cfrE2wa
+    [login_time] => 2019-03-19 15:43:21
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 0
+    [create_date] => 2019-03-19 15:43:21
+    [update_date] => 2019-03-19 15:43:21
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：バリデーションOKです。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$yjPilrbHi6rUexDfTTWbOe8LOpSBkXUb5hLUEALdQuoA29cfrE2wa
+    [id] => 4
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552977992
+    [login_limit] => 2592000
+    [user_id] => 4
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：「　マイページ　
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：セッションID：7t3bfot9kgedq7jud7etaig1gd
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552977992
+    [login_limit] => 2592000
+    [user_id] => 4
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977992
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555569992
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：ユーザーID：4
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：ユーザーID：4
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 65
+            [name] => kaz
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => human android
+            [price] => 2000
+            [pic1] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 13:28:50
+            [update_date] => 2019-03-18 00:00:00
+        )
+
+    [1] => Array
+        (
+            [id] => 66
+            [name] => kaz2
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => human android2
+            [price] => 222222
+            [pic1] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 17:55:22
+            [update_date] => 2019-03-18 00:00:00
+        )
+
+    [2] => Array
+        (
+            [id] => 67
+            [name] => なんでもない
+            [category_id] => 2
+            [shipment] => 4-7日で発送
+            [comment] => これは写真のない商品だよ
+            [price] => 500000
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 18:37:40
+            [update_date] => 2019-03-18 00:00:00
+        )
+
+    [3] => Array
+        (
+            [id] => 68
+            [name] => アバター
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => 
+            [price] => 5000
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 13:41:21
+            [update_date] => 2019-03-18 14:03:52
+        )
+
+    [4] => Array
+        (
+            [id] => 69
+            [name] => アバター2
+            [category_id] => 0
+            [shipment] => 2-3日で発送
+            [comment] => aaaa
+            [price] => 0
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 13:51:37
+            [update_date] => 2019-03-18 14:04:16
+        )
+
+    [5] => Array
+        (
+            [id] => 70
+            [name] => アバター3
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => リベンジ
+            [price] => 11111
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 14:12:38
+            [update_date] => 2019-03-18 14:12:38
+        )
+
+    [6] => Array
+        (
+            [id] => 71
+            [name] => アバター4
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 14:37:28
+            [update_date] => 2019-03-18 14:37:28
+        )
+
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 
+            [delete_flg] => 0
+            [create_date] => 2016-05-25 00:00:00
+            [update_date] => 2019-03-10 19:16:56
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-10 19:21:36
+            [update_date] => 2019-03-10 19:21:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 16
+                            [bord_id] => 2
+                            [send_date] => 2019-03-12 18:37:45
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => oooooo
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:37:45
+                            [update_date] => 2019-03-12 18:37:45
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 2
+                            [send_date] => 2016-05-28 00:00:00
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ああああああ3
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-28 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 2
+                            [send_date] => 2016-05-28 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ3
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-28 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 2
+                            [send_date] => 2016-05-27 00:00:00
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ああああああ2
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-27 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 2
+                            [send_date] => 2016-05-27 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ2
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-27 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 2
+                            [send_date] => 2016-05-26 00:00:00
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ああああああ1
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-26 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 2
+                            [send_date] => 2016-05-26 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ1
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-26 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 1
+                            [bord_id] => 2
+                            [send_date] => 2016-05-25 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-25 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-10 19:31:02
+            [update_date] => 2019-03-10 19:31:02
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 3
+                            [send_date] => 2019-03-10 19:31:13
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-10 19:31:13
+                            [update_date] => 2019-03-10 19:31:13
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 17:56:46
+            [update_date] => 2019-03-11 17:56:46
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 7
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 17:57:02
+            [update_date] => 2019-03-11 17:57:02
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 8
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:19:43
+            [update_date] => 2019-03-12 00:53:28
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 9
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:34:11
+            [update_date] => 2019-03-12 00:53:35
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 12
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:51:30
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ffff
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:51:30
+                            [update_date] => 2019-03-12 01:05:41
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 11
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:46:08
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ffff
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:46:08
+                            [update_date] => 2019-03-12 01:05:35
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:34:21
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ffff
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:34:21
+                            [update_date] => 2019-03-12 01:05:27
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 9
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:34:17
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:34:17
+                            [update_date] => 2019-03-12 01:05:18
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 10
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:54:07
+            [update_date] => 2019-03-12 00:54:07
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 11
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:54:15
+            [update_date] => 2019-03-12 00:54:15
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 12
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:54:39
+            [update_date] => 2019-03-12 00:54:39
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [10] => Array
+        (
+            [id] => 13
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 01:00:52
+            [update_date] => 2019-03-12 01:00:52
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [11] => Array
+        (
+            [id] => 14
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 01:05:52
+            [update_date] => 2019-03-12 01:05:52
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [12] => Array
+        (
+            [id] => 15
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 01:15:42
+            [update_date] => 2019-03-12 01:15:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [13] => Array
+        (
+            [id] => 16
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 15
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:10:22
+            [update_date] => 2019-03-12 16:10:22
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [14] => Array
+        (
+            [id] => 17
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:11:11
+            [update_date] => 2019-03-12 16:11:11
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [15] => Array
+        (
+            [id] => 18
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:11:46
+            [update_date] => 2019-03-12 16:11:46
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [16] => Array
+        (
+            [id] => 19
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:13:40
+            [update_date] => 2019-03-12 16:13:40
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [17] => Array
+        (
+            [id] => 20
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:34:56
+            [update_date] => 2019-03-12 16:34:56
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [18] => Array
+        (
+            [id] => 21
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:36:22
+            [update_date] => 2019-03-12 16:36:22
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [19] => Array
+        (
+            [id] => 22
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:43:25
+            [update_date] => 2019-03-12 16:43:25
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [20] => Array
+        (
+            [id] => 23
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:46:01
+            [update_date] => 2019-03-12 16:46:01
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [21] => Array
+        (
+            [id] => 24
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:52:58
+            [update_date] => 2019-03-12 16:52:58
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 13
+                            [bord_id] => 24
+                            [send_date] => 2019-03-12 18:33:52
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => うりゃあああああああ
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:33:52
+                            [update_date] => 2019-03-12 18:33:52
+                        )
+
+                )
+
+        )
+
+    [22] => Array
+        (
+            [id] => 25
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 18:34:17
+            [update_date] => 2019-03-12 18:34:17
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 18
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:39:11
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => どないやねん
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:39:11
+                            [update_date] => 2019-03-12 18:39:11
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 17
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:38:19
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => なんでやねん
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:38:19
+                            [update_date] => 2019-03-12 18:38:19
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 15
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:34:34
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => おりゃーーーーーーーーー
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:34:34
+                            [update_date] => 2019-03-12 18:34:34
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 14
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:34:23
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => うりゃあああああ
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:34:23
+                            [update_date] => 2019-03-12 18:34:23
+                        )
+
+                )
+
+        )
+
+    [23] => Array
+        (
+            [id] => 28
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 17:06:23
+            [update_date] => 2019-03-14 17:06:23
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [24] => Array
+        (
+            [id] => 29
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 17:12:45
+            [update_date] => 2019-03-14 17:12:45
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [25] => Array
+        (
+            [id] => 30
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 20
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:43:55
+            [update_date] => 2019-03-14 23:43:55
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [26] => Array
+        (
+            [id] => 31
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 20
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:46:30
+            [update_date] => 2019-03-14 23:46:30
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [27] => Array
+        (
+            [id] => 32
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:48:02
+            [update_date] => 2019-03-14 23:48:02
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [28] => Array
+        (
+            [id] => 33
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:54:19
+            [update_date] => 2019-03-14 23:54:19
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [29] => Array
+        (
+            [id] => 34
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:25:42
+            [update_date] => 2019-03-15 00:25:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [30] => Array
+        (
+            [id] => 35
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:29:08
+            [update_date] => 2019-03-15 00:29:08
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [31] => Array
+        (
+            [id] => 36
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:30:13
+            [update_date] => 2019-03-15 00:30:13
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [32] => Array
+        (
+            [id] => 37
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:30:42
+            [update_date] => 2019-03-15 00:30:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [33] => Array
+        (
+            [id] => 38
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:31:47
+            [update_date] => 2019-03-15 00:31:47
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [34] => Array
+        (
+            [id] => 39
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:31:58
+            [update_date] => 2019-03-15 00:31:58
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [35] => Array
+        (
+            [id] => 40
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:36:35
+            [update_date] => 2019-03-15 00:36:35
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [36] => Array
+        (
+            [id] => 41
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:04
+            [update_date] => 2019-03-15 00:40:04
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [37] => Array
+        (
+            [id] => 42
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:19
+            [update_date] => 2019-03-15 00:40:19
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [38] => Array
+        (
+            [id] => 43
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:30
+            [update_date] => 2019-03-15 00:40:30
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [39] => Array
+        (
+            [id] => 44
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:42
+            [update_date] => 2019-03-15 00:40:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [40] => Array
+        (
+            [id] => 45
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:47
+            [update_date] => 2019-03-15 00:40:47
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [41] => Array
+        (
+            [id] => 46
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:17
+            [update_date] => 2019-03-15 00:41:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [42] => Array
+        (
+            [id] => 47
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:24
+            [update_date] => 2019-03-15 00:41:24
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [43] => Array
+        (
+            [id] => 48
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:31
+            [update_date] => 2019-03-15 00:41:31
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [44] => Array
+        (
+            [id] => 49
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:42
+            [update_date] => 2019-03-15 00:41:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [45] => Array
+        (
+            [id] => 50
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:54:00
+            [update_date] => 2019-03-15 00:54:00
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [46] => Array
+        (
+            [id] => 51
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:16
+            [update_date] => 2019-03-15 01:02:16
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [47] => Array
+        (
+            [id] => 52
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:25
+            [update_date] => 2019-03-15 01:02:25
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [48] => Array
+        (
+            [id] => 53
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:31
+            [update_date] => 2019-03-15 01:02:31
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [49] => Array
+        (
+            [id] => 54
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:39
+            [update_date] => 2019-03-15 01:02:39
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [50] => Array
+        (
+            [id] => 57
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:07:26
+            [update_date] => 2019-03-15 01:07:26
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [51] => Array
+        (
+            [id] => 58
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:07:34
+            [update_date] => 2019-03-15 01:07:34
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [52] => Array
+        (
+            [id] => 59
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:08:31
+            [update_date] => 2019-03-15 01:08:31
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [53] => Array
+        (
+            [id] => 60
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:10:18
+            [update_date] => 2019-03-15 01:10:18
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [54] => Array
+        (
+            [id] => 61
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 7
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:12:42
+            [update_date] => 2019-03-15 01:12:42
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 21
+                            [bord_id] => 61
+                            [send_date] => 2019-03-15 01:12:52
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-15 01:12:52
+                            [update_date] => 2019-03-15 01:12:52
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 20
+                            [bord_id] => 61
+                            [send_date] => 2019-03-15 01:12:47
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-15 01:12:47
+                            [update_date] => 2019-03-15 01:12:47
+                        )
+
+                )
+
+        )
+
+    [55] => Array
+        (
+            [id] => 62
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:17:21
+            [update_date] => 2019-03-15 01:17:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [56] => Array
+        (
+            [id] => 71
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:48:21
+            [update_date] => 2019-03-15 11:48:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [57] => Array
+        (
+            [id] => 72
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:54:16
+            [update_date] => 2019-03-15 11:54:16
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [58] => Array
+        (
+            [id] => 73
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:57:37
+            [update_date] => 2019-03-15 11:57:37
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [59] => Array
+        (
+            [id] => 74
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:59:10
+            [update_date] => 2019-03-15 11:59:10
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 11
+            [product_id] => 11
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-03-04 16:55:17
+            [update_flg] => 2019-03-13 10:57:13
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [update_date] => 2019-03-17 23:58:58
+        )
+
+    [1] => Array
+        (
+            [id] => 18
+            [product_id] => 18
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-03-04 16:55:17
+            [update_flg] => 2019-03-13 10:57:22
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [update_date] => 2019-03-17 23:58:58
+        )
+
+)
+
+[19-Mar-2019 15:46:32 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：「　ログアウトページ　
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：セッションID：on7m4cn25s6ff8756phhpj86ao
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552977992
+    [login_limit] => 2592000
+    [user_id] => 4
+)
+
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977996
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555569992
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：ログアウトします。
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：ログインページへ遷移します。
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：セッションID：4bmkvemhir34pe9j7jepkqrcsc
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552977996
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:36 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：セッションID：2kdf43gcrc97sh82hcakjbees8
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978008
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => aaaaaaaaa
+)
+
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 0
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：バリデーションOKです。
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [id] => 3
+)
+
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：セッションID：tmn6r23cav4qm6eaobesorr9ev
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978011
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => aaaaaaaaa
+)
+
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 1
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：バリデーションOKです。
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [id] => 3
+)
+
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：セッションID：j5u1o3eb2sgrv9vtqn2aga1gvm
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978013
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => aaaaaaaaa
+)
+
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 2
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：バリデーションOKです。
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [id] => 3
+)
+
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:53 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：セッションID：2dup9jiemfje68qr2n31telbq1
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978014
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => aaaaaaaaa
+)
+
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 3
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：バリデーションOKです。
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:54 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [id] => 3
+)
+
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：セッションID：2tdmiv2tsr14e98dosct1g0rtg
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978015
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => aaaaaaaaa
+)
+
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 4
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：バリデーションOKです。
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:55 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [id] => 3
+)
+
+[19-Mar-2019 15:46:56 Asia/Tokyo] デバッグ：パスワードがアンマッチです。
+[19-Mar-2019 15:46:56 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:56 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：セッションID：ut54d9260teb5md8i947dn4so6
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978017
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => aaaaaaaaa
+)
+
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 5
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:57 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：セッションID：s7t5ed8c9giubrlggpp0d1btti
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978019
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => aaaaaaaaa
+)
+
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 6
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:46:59 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：セッションID：ii0f4bjpjf7j48pg3e6asf580u
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978342
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => hbb.arararara@gmail.com
+    [pass] => password
+)
+
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 3
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => hbb.arararara@gmail.com
+    [password] => $2y$10$.T9r0nUNb4mqipqwDQszz.RIseKwW47.Ldf5lP7ti1lxAC2mwTIWW
+    [login_time] => 2019-03-01 17:22:53
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 6
+    [create_date] => 2019-03-01 17:22:53
+    [update_date] => 2019-03-01 17:22:53
+)
+
+[19-Mar-2019 15:52:22 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：セッションID：u6bfi37l33jirn12he1136af8j
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978357
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：POST送信があります。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：POSTの値:Array
+(
+    [email] => phxxx447@yahoo.co.jp
+    [pass] => password
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：$err_msgの値Array
+(
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：$resultの値:Array
+(
+    [id] => 4
+    [username] => 
+    [age] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => phxxx447@yahoo.co.jp
+    [password] => $2y$10$yjPilrbHi6rUexDfTTWbOe8LOpSBkXUb5hLUEALdQuoA29cfrE2wa
+    [login_time] => 2019-03-19 15:43:21
+    [pic] => 
+    [delete_flg] => 0
+    [lock_flg] => 0
+    [create_date] => 2019-03-19 15:43:21
+    [update_date] => 2019-03-19 15:43:21
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：バリデーションOKです。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [password] => $2y$10$yjPilrbHi6rUexDfTTWbOe8LOpSBkXUb5hLUEALdQuoA29cfrE2wa
+    [id] => 4
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：ログイン保持にチェックはありません。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552978357
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：「　マイページ　
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：セッションID：99isac2h8rff1h7aph2psm0f8b
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552978357
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978357
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1552981957
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：ユーザーID：4
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：ユーザーID：4
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：クエリ成功。
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [0] => Array
+        (
+            [id] => 65
+            [name] => kaz
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => human android
+            [price] => 2000
+            [pic1] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 13:28:50
+            [update_date] => 2019-03-18 00:00:00
+        )
+
+    [1] => Array
+        (
+            [id] => 66
+            [name] => kaz2
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => human android2
+            [price] => 222222
+            [pic1] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 17:55:22
+            [update_date] => 2019-03-18 00:00:00
+        )
+
+    [2] => Array
+        (
+            [id] => 67
+            [name] => なんでもない
+            [category_id] => 2
+            [shipment] => 4-7日で発送
+            [comment] => これは写真のない商品だよ
+            [price] => 500000
+            [pic1] => 
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 18:37:40
+            [update_date] => 2019-03-18 00:00:00
+        )
+
+    [3] => Array
+        (
+            [id] => 68
+            [name] => アバター
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => 
+            [price] => 5000
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 13:41:21
+            [update_date] => 2019-03-18 14:03:52
+        )
+
+    [4] => Array
+        (
+            [id] => 69
+            [name] => アバター2
+            [category_id] => 0
+            [shipment] => 2-3日で発送
+            [comment] => aaaa
+            [price] => 0
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 13:51:37
+            [update_date] => 2019-03-18 14:04:16
+        )
+
+    [5] => Array
+        (
+            [id] => 70
+            [name] => アバター3
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => リベンジ
+            [price] => 11111
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 14:12:38
+            [update_date] => 2019-03-18 14:12:38
+        )
+
+    [6] => Array
+        (
+            [id] => 71
+            [name] => アバター4
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => a
+            [price] => 1
+            [pic1] => uploads/aec81ba85d008d8b133551b76689594d02a3cd91.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-18 14:37:28
+            [update_date] => 2019-03-18 14:37:28
+        )
+
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 
+            [delete_flg] => 0
+            [create_date] => 2016-05-25 00:00:00
+            [update_date] => 2019-03-10 19:16:56
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-10 19:21:36
+            [update_date] => 2019-03-10 19:21:36
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 16
+                            [bord_id] => 2
+                            [send_date] => 2019-03-12 18:37:45
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => oooooo
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:37:45
+                            [update_date] => 2019-03-12 18:37:45
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 6
+                            [bord_id] => 2
+                            [send_date] => 2016-05-28 00:00:00
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ああああああ3
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-28 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 7
+                            [bord_id] => 2
+                            [send_date] => 2016-05-28 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ3
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-28 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 4
+                            [bord_id] => 2
+                            [send_date] => 2016-05-27 00:00:00
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ああああああ2
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-27 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [4] => Array
+                        (
+                            [id] => 5
+                            [bord_id] => 2
+                            [send_date] => 2016-05-27 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ2
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-27 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [5] => Array
+                        (
+                            [id] => 2
+                            [bord_id] => 2
+                            [send_date] => 2016-05-26 00:00:00
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ああああああ1
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-26 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [6] => Array
+                        (
+                            [id] => 3
+                            [bord_id] => 2
+                            [send_date] => 2016-05-26 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ1
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-26 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                    [7] => Array
+                        (
+                            [id] => 1
+                            [bord_id] => 2
+                            [send_date] => 2016-05-25 00:00:00
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => ああああああ
+                            [delete_flg] => 0
+                            [create_date] => 2016-05-25 00:00:00
+                            [update_date] => 2019-03-10 19:30:10
+                        )
+
+                )
+
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-10 19:31:02
+            [update_date] => 2019-03-10 19:31:02
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 8
+                            [bord_id] => 3
+                            [send_date] => 2019-03-10 19:31:13
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-10 19:31:13
+                            [update_date] => 2019-03-10 19:31:13
+                        )
+
+                )
+
+        )
+
+    [3] => Array
+        (
+            [id] => 6
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 17:56:46
+            [update_date] => 2019-03-11 17:56:46
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [id] => 7
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-11 17:57:02
+            [update_date] => 2019-03-11 17:57:02
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [5] => Array
+        (
+            [id] => 8
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:19:43
+            [update_date] => 2019-03-12 00:53:28
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [id] => 9
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:34:11
+            [update_date] => 2019-03-12 00:53:35
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 12
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:51:30
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ffff
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:51:30
+                            [update_date] => 2019-03-12 01:05:41
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 11
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:46:08
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ffff
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:46:08
+                            [update_date] => 2019-03-12 01:05:35
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 10
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:34:21
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => ffff
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:34:21
+                            [update_date] => 2019-03-12 01:05:27
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 9
+                            [bord_id] => 9
+                            [send_date] => 2019-03-12 00:34:17
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 00:34:17
+                            [update_date] => 2019-03-12 01:05:18
+                        )
+
+                )
+
+        )
+
+    [7] => Array
+        (
+            [id] => 10
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:54:07
+            [update_date] => 2019-03-12 00:54:07
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [8] => Array
+        (
+            [id] => 11
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:54:15
+            [update_date] => 2019-03-12 00:54:15
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [9] => Array
+        (
+            [id] => 12
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 00:54:39
+            [update_date] => 2019-03-12 00:54:39
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [10] => Array
+        (
+            [id] => 13
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 01:00:52
+            [update_date] => 2019-03-12 01:00:52
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [11] => Array
+        (
+            [id] => 14
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 01:05:52
+            [update_date] => 2019-03-12 01:05:52
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [12] => Array
+        (
+            [id] => 15
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 01:15:42
+            [update_date] => 2019-03-12 01:15:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [13] => Array
+        (
+            [id] => 16
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 15
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:10:22
+            [update_date] => 2019-03-12 16:10:22
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [14] => Array
+        (
+            [id] => 17
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:11:11
+            [update_date] => 2019-03-12 16:11:11
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [15] => Array
+        (
+            [id] => 18
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:11:46
+            [update_date] => 2019-03-12 16:11:46
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [16] => Array
+        (
+            [id] => 19
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:13:40
+            [update_date] => 2019-03-12 16:13:40
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [17] => Array
+        (
+            [id] => 20
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:34:56
+            [update_date] => 2019-03-12 16:34:56
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [18] => Array
+        (
+            [id] => 21
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:36:22
+            [update_date] => 2019-03-12 16:36:22
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [19] => Array
+        (
+            [id] => 22
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:43:25
+            [update_date] => 2019-03-12 16:43:25
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [20] => Array
+        (
+            [id] => 23
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:46:01
+            [update_date] => 2019-03-12 16:46:01
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [21] => Array
+        (
+            [id] => 24
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 16:52:58
+            [update_date] => 2019-03-12 16:52:58
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 13
+                            [bord_id] => 24
+                            [send_date] => 2019-03-12 18:33:52
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => うりゃあああああああ
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:33:52
+                            [update_date] => 2019-03-12 18:33:52
+                        )
+
+                )
+
+        )
+
+    [22] => Array
+        (
+            [id] => 25
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-12 18:34:17
+            [update_date] => 2019-03-12 18:34:17
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 18
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:39:11
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => どないやねん
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:39:11
+                            [update_date] => 2019-03-12 18:39:11
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 17
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:38:19
+                            [to_user] => 4
+                            [from_user] => 3
+                            [msg] => なんでやねん
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:38:19
+                            [update_date] => 2019-03-12 18:38:19
+                        )
+
+                    [2] => Array
+                        (
+                            [id] => 15
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:34:34
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => おりゃーーーーーーーーー
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:34:34
+                            [update_date] => 2019-03-12 18:34:34
+                        )
+
+                    [3] => Array
+                        (
+                            [id] => 14
+                            [bord_id] => 25
+                            [send_date] => 2019-03-12 18:34:23
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => うりゃあああああ
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-12 18:34:23
+                            [update_date] => 2019-03-12 18:34:23
+                        )
+
+                )
+
+        )
+
+    [23] => Array
+        (
+            [id] => 28
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 17:06:23
+            [update_date] => 2019-03-14 17:06:23
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [24] => Array
+        (
+            [id] => 29
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 17:12:45
+            [update_date] => 2019-03-14 17:12:45
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [25] => Array
+        (
+            [id] => 30
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 20
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:43:55
+            [update_date] => 2019-03-14 23:43:55
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [26] => Array
+        (
+            [id] => 31
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 20
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:46:30
+            [update_date] => 2019-03-14 23:46:30
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [27] => Array
+        (
+            [id] => 32
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:48:02
+            [update_date] => 2019-03-14 23:48:02
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [28] => Array
+        (
+            [id] => 33
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-14 23:54:19
+            [update_date] => 2019-03-14 23:54:19
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [29] => Array
+        (
+            [id] => 34
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 2
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:25:42
+            [update_date] => 2019-03-15 00:25:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [30] => Array
+        (
+            [id] => 35
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:29:08
+            [update_date] => 2019-03-15 00:29:08
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [31] => Array
+        (
+            [id] => 36
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:30:13
+            [update_date] => 2019-03-15 00:30:13
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [32] => Array
+        (
+            [id] => 37
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:30:42
+            [update_date] => 2019-03-15 00:30:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [33] => Array
+        (
+            [id] => 38
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:31:47
+            [update_date] => 2019-03-15 00:31:47
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [34] => Array
+        (
+            [id] => 39
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:31:58
+            [update_date] => 2019-03-15 00:31:58
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [35] => Array
+        (
+            [id] => 40
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:36:35
+            [update_date] => 2019-03-15 00:36:35
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [36] => Array
+        (
+            [id] => 41
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:04
+            [update_date] => 2019-03-15 00:40:04
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [37] => Array
+        (
+            [id] => 42
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:19
+            [update_date] => 2019-03-15 00:40:19
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [38] => Array
+        (
+            [id] => 43
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:30
+            [update_date] => 2019-03-15 00:40:30
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [39] => Array
+        (
+            [id] => 44
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:42
+            [update_date] => 2019-03-15 00:40:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [40] => Array
+        (
+            [id] => 45
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:40:47
+            [update_date] => 2019-03-15 00:40:47
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [41] => Array
+        (
+            [id] => 46
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:17
+            [update_date] => 2019-03-15 00:41:17
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [42] => Array
+        (
+            [id] => 47
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 9
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:24
+            [update_date] => 2019-03-15 00:41:24
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [43] => Array
+        (
+            [id] => 48
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:31
+            [update_date] => 2019-03-15 00:41:31
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [44] => Array
+        (
+            [id] => 49
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 4
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:41:42
+            [update_date] => 2019-03-15 00:41:42
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [45] => Array
+        (
+            [id] => 50
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 00:54:00
+            [update_date] => 2019-03-15 00:54:00
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [46] => Array
+        (
+            [id] => 51
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 1
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:16
+            [update_date] => 2019-03-15 01:02:16
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [47] => Array
+        (
+            [id] => 52
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:25
+            [update_date] => 2019-03-15 01:02:25
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [48] => Array
+        (
+            [id] => 53
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 6
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:31
+            [update_date] => 2019-03-15 01:02:31
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [49] => Array
+        (
+            [id] => 54
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 14
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:02:39
+            [update_date] => 2019-03-15 01:02:39
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [50] => Array
+        (
+            [id] => 57
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:07:26
+            [update_date] => 2019-03-15 01:07:26
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [51] => Array
+        (
+            [id] => 58
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:07:34
+            [update_date] => 2019-03-15 01:07:34
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [52] => Array
+        (
+            [id] => 59
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:08:31
+            [update_date] => 2019-03-15 01:08:31
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [53] => Array
+        (
+            [id] => 60
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:10:18
+            [update_date] => 2019-03-15 01:10:18
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [54] => Array
+        (
+            [id] => 61
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 7
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:12:42
+            [update_date] => 2019-03-15 01:12:42
+            [msg] => Array
+                (
+                    [0] => Array
+                        (
+                            [id] => 21
+                            [bord_id] => 61
+                            [send_date] => 2019-03-15 01:12:52
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-15 01:12:52
+                            [update_date] => 2019-03-15 01:12:52
+                        )
+
+                    [1] => Array
+                        (
+                            [id] => 20
+                            [bord_id] => 61
+                            [send_date] => 2019-03-15 01:12:47
+                            [to_user] => 3
+                            [from_user] => 4
+                            [msg] => aaaa
+                            [delete_flg] => 0
+                            [create_date] => 2019-03-15 01:12:47
+                            [update_date] => 2019-03-15 01:12:47
+                        )
+
+                )
+
+        )
+
+    [55] => Array
+        (
+            [id] => 62
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 19
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 01:17:21
+            [update_date] => 2019-03-15 01:17:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [56] => Array
+        (
+            [id] => 71
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 17
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:48:21
+            [update_date] => 2019-03-15 11:48:21
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [57] => Array
+        (
+            [id] => 72
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 5
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:54:16
+            [update_date] => 2019-03-15 11:54:16
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [58] => Array
+        (
+            [id] => 73
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 13
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:57:37
+            [update_date] => 2019-03-15 11:57:37
+            [msg] => Array
+                (
+                )
+
+        )
+
+    [59] => Array
+        (
+            [id] => 74
+            [sale_user] => 3
+            [buy_user] => 4
+            [product_id] => 18
+            [delete_flg] => 0
+            [create_date] => 2019-03-15 11:59:10
+            [update_date] => 2019-03-15 11:59:10
+            [msg] => Array
+                (
+                )
+
+        )
+
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
+(
+    [0] => Array
+        (
+            [id] => 11
+            [product_id] => 11
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-03-04 16:55:17
+            [update_flg] => 2019-03-13 10:57:13
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [update_date] => 2019-03-17 23:58:58
+        )
+
+    [1] => Array
+        (
+            [id] => 18
+            [product_id] => 18
+            [user_id] => 3
+            [delete_flg] => 0
+            [create_date] => 2019-03-04 16:55:17
+            [update_flg] => 2019-03-13 10:57:22
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [update_date] => 2019-03-17 23:58:58
+        )
+
+)
+
+[19-Mar-2019 15:52:37 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：「　ログアウトページ　
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：セッションID：va8a2s5q5i4v4q3tamclns03uo
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1552978357
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978362
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1552981957
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：ログアウトします。
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：ログインページへ遷移します。
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：「　ログインページ　
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：セッションID：iourf35a7a4fnfcijpeoov8i6o
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552978362
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[19-Mar-2019 15:52:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
