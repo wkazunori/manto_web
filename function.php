@@ -68,6 +68,8 @@ define('MSG14', '文字で入力してください');
 define('MSG15', '正しくありません');
 define('MSG16', '有効期限が切れています');
 define('MSG17', '半角数字のみご利用いただけます');
+define('MSG19', 'アカウントがロックされました');
+define('MSG20', 'このアカウントはロックされています');
 define('SUC01', 'パスワードを変更しました');
 define('SUC02', 'プロフィールを変更しました');
 define('SUC03', 'メールを送信しました');
@@ -83,6 +85,40 @@ $err_msg = array();
 //================================
 // バリデーション関数
 //================================
+function validAccount($email, $key){
+global $err_msg;
+$err_msg = array();
+debug ('$err_msgの値'.print_r($err_msg,true));
+//例外処理
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * FROM users WHERE email = :email AND delete_flg = 0';
+    $data = array(':email' => $email);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    // クエリ結果の値を取得
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    //array_shift関数は配列の先頭を取り出す関数です。クエリ結果は配列形式で入っているので、array_shiftで1つ目だけ取り出して判定します
+    debug('$resultの値:'.print_r($result,true));
+
+    if($result['lock_flg'] == 5){
+      $err_msg[$key] = MSG19;
+      //lock_flgが5回に達した後はこのバリデーションでlock_flgを+1追加する←6回目以降の表示メッセージを変えるため
+      $sql = 'UPDATE users SET lock_flg = lock_flg + 1 WHERE email = :email AND delete_flg = 0';
+      $data = array(':email' => $email);
+      // クエリ実行
+      $stmt = queryPost($dbh, $sql, $data);
+    } else if ($result['lock_flg'] >= 6){
+      $err_msg[$key] = MSG20;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+    $err_msg['common'] = MSG07;
+  }
+}
 
 //バリデーション関数（未入力チェック）
 function validRequired($str, $key){

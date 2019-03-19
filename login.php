@@ -17,11 +17,14 @@ require('auth.php');
 // post送信されていた場合
 if(!empty($_POST)){
   debug('POST送信があります。');
-
+  debug('POSTの値:'.print_r($_POST,true));
   //変数にユーザー情報を代入
   $email = $_POST['email'];
   $pass = $_POST['pass'];
   $pass_save = (!empty($_POST['pass_save'])) ? true : false; //ショートハンド（略記法）という書き方
+  
+  //アカウントロックチェック
+  validAccount($email, 'lock_flg');
 
   //emailの形式チェック
   validEmail($email, 'email');
@@ -56,6 +59,7 @@ if(!empty($_POST)){
       
       debug('クエリ結果の中身：'.print_r($result,true));
       
+
       // パスワード照合
       if(!empty($result) && password_verify($pass, array_shift($result))){
         debug('パスワードがマッチしました。');
@@ -77,15 +81,22 @@ if(!empty($_POST)){
         }
         // ユーザーIDを格納
         $_SESSION['user_id'] = $result['id'];
-        
         debug('セッション変数の中身：'.print_r($_SESSION,true));
         debug('マイページへ遷移します。');
-        header("Location:mypage.php"); //マイページへ
+        header("Location:mypage.php"); //マイページへ        
+
       }else{
         debug('パスワードがアンマッチです。');
         $err_msg['common'] = MSG09;
-      }
+        
+        //usersテーブル内 ログインしようとしたアカウントが入ったレコードのlock_flgに1を足す
+        // SQL文作成
+        $sql = 'UPDATE users SET lock_flg = lock_flg + 1 WHERE email = :email AND delete_flg = 0';
+        $data = array(':email' => $email);
+        // クエリ実行
+        $stmt = queryPost($dbh, $sql, $data);
 
+      }
     } catch (Exception $e) {
       error_log('エラー発生:' . $e->getMessage());
       $err_msg['common'] = MSG07;
@@ -99,64 +110,72 @@ $siteTitle = 'ログイン';
 require('head.php'); 
 ?>
 
-  <body class="page-login page-1colum">
+<body class="page-login page-1colum">
 
-    <!-- ヘッダー -->
-    <?php
-      require('header.php'); 
+  <!-- ヘッダー -->
+  <?php
+    require('header.php'); 
+  ?>
+  <!-- アカウントがログイン出来たとき -->
+  <p id="js-show-msg" style="display:none;" class="msg-slide">
+    <?php echo getSessionFlash('msg_success'); ?>
+  </p>
+
+  <!-- ロックされたアカウントだった場合 -->
+  <p id="js-show-msg2" style="display:none;" class="msg-slide-lockAccount">
+    <?php 
+      if(!empty($err_msg['lock_flg'])) echo $err_msg['lock_flg'];
     ?>
-    <p id="js-show-msg" style="display:none;" class="msg-slide">
-      <?php echo getSessionFlash('msg_success'); ?>
-    </p>
+  </p>
 
-    <!-- メインコンテンツ -->
-    <div id="contents" class="site-width">
+  <!-- メインコンテンツ -->
+  <div id="contents" class="site-width">
 
-      <!-- Main -->
-      <section id="main" >
+    <!-- Main -->
+    <section id="main" >
 
-       <div class="form-container">
-        
-         <form action="" method="post" class="form">
-           <h2 class="title">ログイン</h2>
-           <div class="area-msg">
-             <?php 
-              if(!empty($err_msg['common'])) echo $err_msg['common'];
-             ?>
-           </div>
-           <label class="<?php if(!empty($err_msg['email'])) echo 'err'; ?>">
-            メールアドレス
-             <input type="text" name="email" value="<?php if(!empty($_POST['email'])) echo $_POST['email']; ?>">
-           </label>
-           <div class="area-msg">
-             <?php 
-             if(!empty($err_msg['email'])) echo $err_msg['email'];
-             ?>
-           </div>
-           <label class="<?php if(!empty($err_msg['pass'])) echo 'err'; ?>">
-             パスワード
-             <input type="password" name="pass" value="<?php if(!empty($_POST['pass'])) echo $_POST['pass']; ?>">
-           </label>
-           <div class="area-msg">
-             <?php 
-             if(!empty($err_msg['pass'])) echo $err_msg['pass'];
-             ?>
-           </div>
-           <label>
-             <input type="checkbox" name="pass_save">次回ログインを省略する
-           </label>
-            <div class="btn-container">
-              <input type="submit" class="btn btn-mid" value="ログイン">
-            </div>
-            パスワードを忘れた方は<a href="passRemindSend.php">コチラ</a>
-         </form>
-       </div>
+      <div class="form-container">
+      
+        <form action="" method="post" class="form">
+          <h2 class="title">ログイン</h2>
+          <div class="area-msg">
+            <?php 
+            if(!empty($err_msg['common'])) echo $err_msg['common'];
+            ?>
+          </div>
+          <label class="<?php if(!empty($err_msg['email'])) echo 'err'; ?>">
+          メールアドレス
+            <input type="text" name="email" value="<?php if(!empty($_POST['email'])) echo $_POST['email']; ?>">
+          </label>
+          <div class="area-msg">
+            <?php 
+            if(!empty($err_msg['email'])) echo $err_msg['email'];
+            ?>
+          </div>
+          <label class="<?php if(!empty($err_msg['pass'])) echo 'err'; ?>">
+            パスワード
+            <input type="password" name="pass" value="<?php if(!empty($_POST['pass'])) echo $_POST['pass']; ?>">
+          </label>
+          <div class="area-msg">
+            <?php 
+            if(!empty($err_msg['pass'])) echo $err_msg['pass'];
+            ?>
+          </div>
+          <label>
+            <input type="checkbox" name="pass_save">次回ログインを省略する
+          </label>
+          <div class="btn-container">
+            <input type="submit" class="btn btn-mid" value="ログイン">
+          </div>
+          パスワードを忘れた方は<a href="passRemindSend.php">コチラ</a>
+        </form>
+      </div>
 
-      </section>
+    </section>
 
-    </div>
+  </div>
 
-    <!-- footer -->
-    <?php
-    require('footer.php'); 
-    ?>
+  <!-- footer -->
+  <?php
+  require('footer.php'); 
+  ?>

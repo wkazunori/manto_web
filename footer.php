@@ -17,8 +17,14 @@
     if(msg.replace(/^[\s　]+|[\s　]+$/g, "").length){
       $jsShowMsg.slideToggle('slow');
       setTimeout(function(){ $jsShowMsg.slideToggle('slow'); }, 5000);
-    }
-    
+    } 
+    // メッセージ表示2
+    var $jsShowMsg2 = $('#js-show-msg2');
+    var msg = $jsShowMsg2.text();
+    if(msg.replace(/^[\s　]+|[\s　]+$/g, "").length){
+      $jsShowMsg2.slideToggle('slow');
+      setTimeout(function(){ $jsShowMsg2.slideToggle('slow'); }, 5000);
+    } 
     // 画像ライブプレビュー
     var $dropArea = $('.area-drop');
     var $fileInput = $('.input-file');
