@@ -54485,7 +54485,6 @@ Stack trace:
     [msg_success] => 
 )
 
-[18-Mar-2019 15:28:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552890485
 [18-Mar-2019 15:28:05 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555479448
 [18-Mar-2019 15:28:05 Asia/Tokyo] デバッグ：商品情報を取得します。
 [18-Mar-2019 15:28:05 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
@@ -54505,26 +54504,6 @@ Stack trace:
 (
     [login_date] => 1552887448
     [login_limit] => 2592000
-    [user_id] => 4
-    [msg_success] => 
-)
-
-[18-Mar-2019 15:28:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552890487
-[18-Mar-2019 15:28:07 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555479448
-[18-Mar-2019 15:28:07 Asia/Tokyo] デバッグ：商品情報を取得します。
-[18-Mar-2019 15:28:07 Asia/Tokyo] デバッグ：商品ID：1
-[18-Mar-2019 15:28:07 Asia/Tokyo] デバッグ：クエリ成功。
-[18-Mar-2019 15:28:07 Asia/Tokyo] デバッグ：取得したDBデータ：Array
-(
-    [id] => 1
-    [name] => テスト
-    [comment] => aaaa
-    [price] => 20000
-    [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-    [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-    [pic3] => 
-    [user_id] => 3
-    [create_date] => 2019-03-04 16:55:17
     [update_date] => 2019-03-17 23:58:58
     [category] => スマホ
 )
@@ -55573,3327 +55552,1115 @@ Stack trace:
             [delete_flg] => 0
             [create_date] => 2019-03-04 16:55:17
             [update_date] => 2019-03-17 23:58:58
-        )
-
-    [1] => Array
-        (
-            [id] => 2
-            [name] => 自転車
-            [category_id] => 3
-            [shipment] => 1-2日で発送
-            [comment] => 自転車になります
-            [price] => 50000
-            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:31
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [2] => Array
-        (
-            [id] => 3
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 1-2日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [3] => Array
-        (
-            [id] => 4
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [4] => Array
-        (
-            [id] => 5
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [5] => Array
-        (
-            [id] => 6
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [6] => Array
-        (
-            [id] => 7
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [7] => Array
-        (
-            [id] => 8
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [8] => Array
-        (
-            [id] => 9
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [9] => Array
-        (
-            [id] => 10
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [10] => Array
-        (
-            [id] => 11
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [11] => Array
-        (
-            [id] => 12
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [12] => Array
-        (
-            [id] => 13
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [13] => Array
-        (
-            [id] => 14
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [14] => Array
-        (
-            [id] => 15
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [15] => Array
-        (
-            [id] => 16
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [16] => Array
-        (
-            [id] => 17
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [17] => Array
-        (
-            [id] => 18
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [18] => Array
-        (
-            [id] => 19
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [19] => Array
-        (
-            [id] => 20
-            [name] => テスト
-            [category_id] => 1
-            [shipment] => 1-2日で発送
-            [comment] => aaaa
-            [price] => 20000
-            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
-            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:55:17
-            [update_date] => 2019-03-17 23:58:58
-        )
-
-    [20] => Array
-        (
-            [id] => 21
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [21] => Array
-        (
-            [id] => 22
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [22] => Array
-        (
-            [id] => 23
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [23] => Array
-        (
-            [id] => 24
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [24] => Array
-        (
-            [id] => 25
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [25] => Array
-        (
-            [id] => 26
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [26] => Array
-        (
-            [id] => 27
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [27] => Array
-        (
-            [id] => 28
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [28] => Array
-        (
-            [id] => 29
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [29] => Array
-        (
-            [id] => 30
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [30] => Array
-        (
-            [id] => 31
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [31] => Array
-        (
-            [id] => 32
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [32] => Array
-        (
-            [id] => 33
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [33] => Array
-        (
-            [id] => 34
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [34] => Array
-        (
-            [id] => 35
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [35] => Array
-        (
-            [id] => 36
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [36] => Array
-        (
-            [id] => 37
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [37] => Array
-        (
-            [id] => 38
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [38] => Array
-        (
-            [id] => 39
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [39] => Array
-        (
-            [id] => 40
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 2-3日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-17 23:59:41
-        )
-
-    [40] => Array
-        (
-            [id] => 41
-            [name] => 自転車
-            [category_id] => 3
-            [shipment] => 4-7日で発送
-            [comment] => 自転車になります
-            [price] => 50000
-            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:31
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [41] => Array
-        (
-            [id] => 42
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [42] => Array
-        (
-            [id] => 43
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [43] => Array
-        (
-            [id] => 44
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [44] => Array
-        (
-            [id] => 45
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [45] => Array
-        (
-            [id] => 46
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [46] => Array
-        (
-            [id] => 47
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [47] => Array
-        (
-            [id] => 48
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [48] => Array
-        (
-            [id] => 49
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [49] => Array
-        (
-            [id] => 50
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [50] => Array
-        (
-            [id] => 51
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [51] => Array
-        (
-            [id] => 52
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [52] => Array
-        (
-            [id] => 53
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [53] => Array
-        (
-            [id] => 54
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [54] => Array
-        (
-            [id] => 55
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [55] => Array
-        (
-            [id] => 56
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [56] => Array
-        (
-            [id] => 57
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [57] => Array
-        (
-            [id] => 58
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [58] => Array
-        (
-            [id] => 59
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [59] => Array
-        (
-            [id] => 60
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [60] => Array
-        (
-            [id] => 61
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-    [61] => Array
-        (
-            [id] => 62
-            [name] => 筋肉
-            [category_id] => 5
-            [shipment] => 4-7日で発送
-            [comment] => マッスル
-            [price] => 1
-            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
-            [pic2] => 
-            [pic3] => 
-            [user_id] => 3
-            [delete_flg] => 0
-            [create_date] => 2019-03-04 16:58:57
-            [update_date] => 2019-03-18 00:00:00
-        )
-
-)
-
-[19-Mar-2019 01:42:05 Asia/Tokyo] デバッグ：取得した掲示板データ：Array
+=======
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552832726
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1555214624
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：自分の商品情報を取得します。
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：ユーザーID：4
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：自分のmsg情報を取得します。
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:26 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：自分のお気に入り情報を取得します。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：ユーザーID：4
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：クエリ成功。
+[17-Mar-2019 23:25:27 Asia/Tokyo] デバッグ：取得した商品データ：Array
 (
     [0] => Array
         (
-            [id] => 1
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 
+            [id] => 65
+            [name] => kaz
+            [category_id] => 5
+            [comment] => human android
+            [price] => 2000
+            [pic1] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 4
             [delete_flg] => 0
-            [create_date] => 2016-05-25 00:00:00
-            [update_date] => 2019-03-10 19:16:56
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-11 13:28:50
+            [update_date] => 2019-03-11 13:28:50
+>>>>>>> 7c78cb0d23378d78cfabc11fcbdb0f0e05e0f661
         )
 
     [1] => Array
         (
-            [id] => 2
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => 自転車
+            [category_id] => 3
+            [shipment] => 1-2日で発送
+            [comment] => 自転車になります
+            [price] => 50000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-10 19:21:36
-            [update_date] => 2019-03-10 19:21:36
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 16
-                            [bord_id] => 2
-                            [send_date] => 2019-03-12 18:37:45
-                            [to_user] => 4
-                            [from_user] => 3
-                            [msg] => oooooo
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 18:37:45
-                            [update_date] => 2019-03-12 18:37:45
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 6
-                            [bord_id] => 2
-                            [send_date] => 2016-05-28 00:00:00
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => ああああああ3
-                            [delete_flg] => 0
-                            [create_date] => 2016-05-28 00:00:00
-                            [update_date] => 2019-03-10 19:30:10
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 7
-                            [bord_id] => 2
-                            [send_date] => 2016-05-28 00:00:00
-                            [to_user] => 4
-                            [from_user] => 3
-                            [msg] => ああああああ3
-                            [delete_flg] => 0
-                            [create_date] => 2016-05-28 00:00:00
-                            [update_date] => 2019-03-10 19:30:10
-                        )
-
-                    [3] => Array
-                        (
-                            [id] => 4
-                            [bord_id] => 2
-                            [send_date] => 2016-05-27 00:00:00
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => ああああああ2
-                            [delete_flg] => 0
-                            [create_date] => 2016-05-27 00:00:00
-                            [update_date] => 2019-03-10 19:30:10
-                        )
-
-                    [4] => Array
-                        (
-                            [id] => 5
-                            [bord_id] => 2
-                            [send_date] => 2016-05-27 00:00:00
-                            [to_user] => 4
-                            [from_user] => 3
-                            [msg] => ああああああ2
-                            [delete_flg] => 0
-                            [create_date] => 2016-05-27 00:00:00
-                            [update_date] => 2019-03-10 19:30:10
-                        )
-
-                    [5] => Array
-                        (
-                            [id] => 2
-                            [bord_id] => 2
-                            [send_date] => 2016-05-26 00:00:00
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => ああああああ1
-                            [delete_flg] => 0
-                            [create_date] => 2016-05-26 00:00:00
-                            [update_date] => 2019-03-10 19:30:10
-                        )
-
-                    [6] => Array
-                        (
-                            [id] => 3
-                            [bord_id] => 2
-                            [send_date] => 2016-05-26 00:00:00
-                            [to_user] => 4
-                            [from_user] => 3
-                            [msg] => ああああああ1
-                            [delete_flg] => 0
-                            [create_date] => 2016-05-26 00:00:00
-                            [update_date] => 2019-03-10 19:30:10
-                        )
-
-                    [7] => Array
-                        (
-                            [id] => 1
-                            [bord_id] => 2
-                            [send_date] => 2016-05-25 00:00:00
-                            [to_user] => 4
-                            [from_user] => 3
-                            [msg] => ああああああ
-                            [delete_flg] => 0
-                            [create_date] => 2016-05-25 00:00:00
-                            [update_date] => 2019-03-10 19:30:10
-                        )
-
-                )
-
+            [create_date] => 2019-03-04 16:58:31
+            [update_date] => 2019-03-17 23:58:58
         )
-
-    [2] => Array
-        (
-            [id] => 3
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 2
-            [delete_flg] => 0
-            [create_date] => 2019-03-10 19:31:02
-            [update_date] => 2019-03-10 19:31:02
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 8
-                            [bord_id] => 3
-                            [send_date] => 2019-03-10 19:31:13
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => aaaa
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-10 19:31:13
-                            [update_date] => 2019-03-10 19:31:13
-                        )
-
-                )
-
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [3] => Array
         (
             [id] => 4
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 3
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-10 19:32:43
-            [update_date] => 2019-03-10 19:32:43
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [4] => Array
         (
             [id] => 5
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 2
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-10 19:32:55
-            [update_date] => 2019-03-10 19:32:55
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [5] => Array
         (
             [id] => 6
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-11 17:56:46
-            [update_date] => 2019-03-11 17:56:46
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [6] => Array
         (
             [id] => 7
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 2
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-11 17:57:02
-            [update_date] => 2019-03-11 17:57:02
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [7] => Array
         (
             [id] => 8
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 00:19:43
-            [update_date] => 2019-03-12 00:53:28
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [8] => Array
         (
             [id] => 9
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 00:34:11
-            [update_date] => 2019-03-12 00:53:35
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 12
-                            [bord_id] => 9
-                            [send_date] => 2019-03-12 00:51:30
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => ffff
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 00:51:30
-                            [update_date] => 2019-03-12 01:05:41
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 11
-                            [bord_id] => 9
-                            [send_date] => 2019-03-12 00:46:08
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => ffff
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 00:46:08
-                            [update_date] => 2019-03-12 01:05:35
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 10
-                            [bord_id] => 9
-                            [send_date] => 2019-03-12 00:34:21
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => ffff
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 00:34:21
-                            [update_date] => 2019-03-12 01:05:27
-                        )
-
-                    [3] => Array
-                        (
-                            [id] => 9
-                            [bord_id] => 9
-                            [send_date] => 2019-03-12 00:34:17
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => aaaaa
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 00:34:17
-                            [update_date] => 2019-03-12 01:05:18
-                        )
-
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [9] => Array
         (
             [id] => 10
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 00:54:07
-            [update_date] => 2019-03-12 00:54:07
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [10] => Array
         (
             [id] => 11
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 2
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 00:54:15
-            [update_date] => 2019-03-12 00:54:15
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [11] => Array
         (
             [id] => 12
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 3
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 00:54:39
-            [update_date] => 2019-03-12 00:54:39
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [12] => Array
         (
             [id] => 13
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 01:00:52
-            [update_date] => 2019-03-12 01:00:52
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [13] => Array
         (
             [id] => 14
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 01:05:52
-            [update_date] => 2019-03-12 01:05:52
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [14] => Array
         (
             [id] => 15
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 01:15:42
-            [update_date] => 2019-03-12 01:15:42
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [15] => Array
         (
             [id] => 16
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 15
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:10:22
-            [update_date] => 2019-03-12 16:10:22
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [16] => Array
         (
             [id] => 17
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 14
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:11:11
-            [update_date] => 2019-03-12 16:11:11
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [17] => Array
         (
             [id] => 18
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 17
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:11:46
-            [update_date] => 2019-03-12 16:11:46
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [18] => Array
         (
             [id] => 19
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 9
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:13:40
-            [update_date] => 2019-03-12 16:13:40
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [19] => Array
         (
             [id] => 20
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 13
+            [name] => テスト
+            [category_id] => 1
+            [shipment] => 1-2日で発送
+            [comment] => aaaa
+            [price] => 20000
+            [pic1] => uploads/728240d146e9771964e4f15b4352c945dce054b7.jpeg
+            [pic2] => uploads/da0b65dba54ce6f7a7f6d76ea6a357a089af59c4.jpeg
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:34:56
-            [update_date] => 2019-03-12 16:34:56
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:55:17
+            [update_date] => 2019-03-17 23:58:58
         )
 
     [20] => Array
         (
             [id] => 21
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 14
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:36:22
-            [update_date] => 2019-03-12 16:36:22
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [21] => Array
         (
             [id] => 22
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 13
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:43:25
-            [update_date] => 2019-03-12 16:43:25
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [22] => Array
         (
             [id] => 23
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 19
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:46:01
-            [update_date] => 2019-03-12 16:46:01
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [23] => Array
         (
             [id] => 24
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 9
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 16:52:58
-            [update_date] => 2019-03-12 16:52:58
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 13
-                            [bord_id] => 24
-                            [send_date] => 2019-03-12 18:33:52
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => うりゃあああああああ
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 18:33:52
-                            [update_date] => 2019-03-12 18:33:52
-                        )
-
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [24] => Array
         (
             [id] => 25
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 13
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 18:34:17
-            [update_date] => 2019-03-12 18:34:17
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 18
-                            [bord_id] => 25
-                            [send_date] => 2019-03-12 18:39:11
-                            [to_user] => 4
-                            [from_user] => 3
-                            [msg] => どないやねん
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 18:39:11
-                            [update_date] => 2019-03-12 18:39:11
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 17
-                            [bord_id] => 25
-                            [send_date] => 2019-03-12 18:38:19
-                            [to_user] => 4
-                            [from_user] => 3
-                            [msg] => なんでやねん
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 18:38:19
-                            [update_date] => 2019-03-12 18:38:19
-                        )
-
-                    [2] => Array
-                        (
-                            [id] => 15
-                            [bord_id] => 25
-                            [send_date] => 2019-03-12 18:34:34
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => おりゃーーーーーーーーー
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 18:34:34
-                            [update_date] => 2019-03-12 18:34:34
-                        )
-
-                    [3] => Array
-                        (
-                            [id] => 14
-                            [bord_id] => 25
-                            [send_date] => 2019-03-12 18:34:23
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => うりゃあああああ
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-12 18:34:23
-                            [update_date] => 2019-03-12 18:34:23
-                        )
-
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [25] => Array
         (
             [id] => 26
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 9
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 18:36:39
-            [update_date] => 2019-03-12 18:36:39
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [26] => Array
         (
             [id] => 27
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 25
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-12 18:37:16
-            [update_date] => 2019-03-12 18:37:16
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [27] => Array
         (
             [id] => 28
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-14 17:06:23
-            [update_date] => 2019-03-14 17:06:23
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [28] => Array
         (
             [id] => 29
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 2
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-14 17:12:45
-            [update_date] => 2019-03-14 17:12:45
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [29] => Array
         (
             [id] => 30
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 20
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-14 23:43:55
-            [update_date] => 2019-03-14 23:43:55
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [30] => Array
         (
             [id] => 31
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 20
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-14 23:46:30
-            [update_date] => 2019-03-14 23:46:30
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [31] => Array
         (
             [id] => 32
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 19
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-14 23:48:02
-            [update_date] => 2019-03-14 23:48:02
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [32] => Array
         (
             [id] => 33
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 18
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-14 23:54:19
-            [update_date] => 2019-03-14 23:54:19
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [33] => Array
         (
             [id] => 34
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 2
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:25:42
-            [update_date] => 2019-03-15 00:25:42
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [34] => Array
         (
             [id] => 35
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:29:08
-            [update_date] => 2019-03-15 00:29:08
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [35] => Array
         (
             [id] => 36
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:30:13
-            [update_date] => 2019-03-15 00:30:13
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [36] => Array
         (
             [id] => 37
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 14
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:30:42
-            [update_date] => 2019-03-15 00:30:42
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [37] => Array
         (
             [id] => 38
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 14
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:31:47
-            [update_date] => 2019-03-15 00:31:47
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [38] => Array
         (
             [id] => 39
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 9
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:31:58
-            [update_date] => 2019-03-15 00:31:58
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [39] => Array
         (
             [id] => 40
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 2-3日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:36:35
-            [update_date] => 2019-03-15 00:36:35
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-17 23:59:41
         )
 
     [40] => Array
         (
             [id] => 41
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
+            [name] => 自転車
+            [category_id] => 3
+            [shipment] => 4-7日で発送
+            [comment] => 自転車になります
+            [price] => 50000
+            [pic1] => uploads/b97d018dd556a12ab02679a3f68d3c6a037018d2.gif
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:40:04
-            [update_date] => 2019-03-15 00:40:04
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:31
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [41] => Array
         (
             [id] => 42
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:40:19
-            [update_date] => 2019-03-15 00:40:19
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [42] => Array
         (
             [id] => 43
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:40:30
-            [update_date] => 2019-03-15 00:40:30
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [43] => Array
         (
             [id] => 44
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 17
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:40:42
-            [update_date] => 2019-03-15 00:40:42
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [44] => Array
         (
             [id] => 45
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 18
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:40:47
-            [update_date] => 2019-03-15 00:40:47
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [45] => Array
         (
             [id] => 46
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 19
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:41:17
-            [update_date] => 2019-03-15 00:41:17
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [46] => Array
         (
             [id] => 47
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 9
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:41:24
-            [update_date] => 2019-03-15 00:41:24
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [47] => Array
         (
             [id] => 48
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:41:31
-            [update_date] => 2019-03-15 00:41:31
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [48] => Array
         (
             [id] => 49
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 4
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:41:42
-            [update_date] => 2019-03-15 00:41:42
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [49] => Array
         (
             [id] => 50
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 00:54:00
-            [update_date] => 2019-03-15 00:54:00
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [50] => Array
         (
             [id] => 51
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 1
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:02:16
-            [update_date] => 2019-03-15 01:02:16
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [51] => Array
         (
             [id] => 52
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:02:25
-            [update_date] => 2019-03-15 01:02:25
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [52] => Array
         (
             [id] => 53
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 6
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:02:31
-            [update_date] => 2019-03-15 01:02:31
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [53] => Array
         (
             [id] => 54
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 14
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:02:39
-            [update_date] => 2019-03-15 01:02:39
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [54] => Array
         (
             [id] => 55
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 1
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:05:07
-            [update_date] => 2019-03-15 01:05:07
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [55] => Array
         (
             [id] => 56
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 5
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:06:50
-            [update_date] => 2019-03-15 01:06:50
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 19
-                            [bord_id] => 56
-                            [send_date] => 2019-03-15 01:06:56
-                            [to_user] => 3
-                            [from_user] => 3
-                            [msg] => aaaaaa
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-15 01:06:56
-                            [update_date] => 2019-03-15 01:06:56
-                        )
-
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [56] => Array
         (
             [id] => 57
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 17
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:07:26
-            [update_date] => 2019-03-15 01:07:26
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [57] => Array
         (
             [id] => 58
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 18
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:07:34
-            [update_date] => 2019-03-15 01:07:34
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [58] => Array
         (
             [id] => 59
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:08:31
-            [update_date] => 2019-03-15 01:08:31
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [59] => Array
         (
             [id] => 60
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 13
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:10:18
-            [update_date] => 2019-03-15 01:10:18
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [60] => Array
         (
             [id] => 61
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 7
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:12:42
-            [update_date] => 2019-03-15 01:12:42
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 21
-                            [bord_id] => 61
-                            [send_date] => 2019-03-15 01:12:52
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => aaaa
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-15 01:12:52
-                            [update_date] => 2019-03-15 01:12:52
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 20
-                            [bord_id] => 61
-                            [send_date] => 2019-03-15 01:12:47
-                            [to_user] => 3
-                            [from_user] => 4
-                            [msg] => aaaa
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-15 01:12:47
-                            [update_date] => 2019-03-15 01:12:47
-                        )
-
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
 
     [61] => Array
         (
             [id] => 62
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 19
+            [name] => 筋肉
+            [category_id] => 5
+            [shipment] => 4-7日で発送
+            [comment] => マッスル
+            [price] => 1
+            [pic1] => uploads/5c218f4d41da6c359fe4e10094e0a951f570880a.jpeg
+            [pic2] => 
+            [pic3] => 
+            [user_id] => 3
             [delete_flg] => 0
-            [create_date] => 2019-03-15 01:17:21
-            [update_date] => 2019-03-15 01:17:21
-            [msg] => Array
-                (
-                )
-
+            [create_date] => 2019-03-04 16:58:57
+            [update_date] => 2019-03-18 00:00:00
         )
-
-    [62] => Array
-        (
-            [id] => 63
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 17
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 01:45:36
-            [update_date] => 2019-03-15 01:45:36
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [63] => Array
-        (
-            [id] => 64
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 5
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 02:15:24
-            [update_date] => 2019-03-15 02:15:24
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [64] => Array
-        (
-            [id] => 65
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 5
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 02:15:37
-            [update_date] => 2019-03-15 02:15:37
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [65] => Array
-        (
-            [id] => 66
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 5
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 02:15:51
-            [update_date] => 2019-03-15 02:15:51
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [66] => Array
-        (
-            [id] => 67
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 5
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 02:16:20
-            [update_date] => 2019-03-15 02:16:20
-            [msg] => Array
-                (
-                    [0] => Array
-                        (
-                            [id] => 23
-                            [bord_id] => 67
-                            [send_date] => 2019-03-15 02:16:47
-                            [to_user] => 3
-                            [from_user] => 3
-                            [msg] => aaaaa
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-15 02:16:47
-                            [update_date] => 2019-03-15 02:16:47
-                        )
-
-                    [1] => Array
-                        (
-                            [id] => 22
-                            [bord_id] => 67
-                            [send_date] => 2019-03-15 02:16:43
-                            [to_user] => 3
-                            [from_user] => 3
-                            [msg] => aaaa
-                            [delete_flg] => 0
-                            [create_date] => 2019-03-15 02:16:43
-                            [update_date] => 2019-03-15 02:16:43
-                        )
-
-                )
-
-        )
-
-    [67] => Array
-        (
-            [id] => 68
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 9
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 02:17:24
-            [update_date] => 2019-03-15 02:17:24
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [68] => Array
-        (
-            [id] => 69
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 21
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 02:19:21
-            [update_date] => 2019-03-15 02:19:21
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [69] => Array
-        (
-            [id] => 70
-            [sale_user] => 3
-            [buy_user] => 3
-            [product_id] => 5
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 02:19:48
-            [update_date] => 2019-03-15 02:19:48
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [70] => Array
-        (
-            [id] => 71
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 17
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 11:48:21
-            [update_date] => 2019-03-15 11:48:21
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [71] => Array
-        (
-            [id] => 72
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 5
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 11:54:16
-            [update_date] => 2019-03-15 11:54:16
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [72] => Array
-        (
-            [id] => 73
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 13
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 11:57:37
-            [update_date] => 2019-03-15 11:57:37
-            [msg] => Array
-                (
-                )
-
-        )
-
-    [73] => Array
-        (
-            [id] => 74
-            [sale_user] => 3
-            [buy_user] => 4
-            [product_id] => 18
-            [delete_flg] => 0
-            [create_date] => 2019-03-15 11:59:10
-            [update_date] => 2019-03-15 11:59:10
-            [msg] => Array
-                (
-                )
-
-        )
-
-)
-
-[19-Mar-2019 01:42:05 Asia/Tokyo] デバッグ：取得したお気に入りデータ：Array
-(
-)
-
-[19-Mar-2019 01:42:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：「　ログアウトページ　
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：セッションID：rqebkbo03405j8grq3k7fmbe9f
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-    [lock_flg] => 1
-    [id] => 0
-    [login_date] => 1552927325
-    [login_limit] => 3600
-    [user_id] => 3
-)
-
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927553
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1552930925
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：ログアウトします。
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：ログインページへ遷移します。
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：セッションID：pig4jst8sj6md3gvp2jabhr03f
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927553
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:45:53 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：セッションID：8rij3gff2lhgsoqraaoket02k9
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927560
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:46:00 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：セッションID：ehaqnipn7luubli42ti8src7co
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927578
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:46:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：セッションID：ugh30jiqq851m5bnlcl3u4kadc
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927680
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:48:00 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：セッションID：lpsrlva2sjvnnr3ppgirjcv38m
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927688
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:48:08 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：セッションID：8u9rqmfrohevdr4sukn1f4lft4
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927695
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:48:15 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：セッションID：065r88bogd8rmb7q405dv1tlvf
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927704
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:48:24 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：セッションID：h2sq49s1o71id6cd4ntt2tebb1
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927719
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:48:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：セッションID：itnfclorssbt1papu8c6j6615p
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927786
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:49:46 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：セッションID：6n3r8fml7ttfedu61dohpf2fih
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927795
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:49:55 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：セッションID：aef8hj5j063o5dp8jr0ntaj2mg
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927878
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:51:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：セッションID：t9klf4pijfqjpc2aeuqtpa6sqd
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927885
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:51:25 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：セッションID：62fskgole984sppdopf01gn71q
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552927927
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:52:07 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：セッションID：hfnb6o3a6jdg6tp9r12fbig57g
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928311
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 01:58:31 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：セッションID：8gq0griauu86u2c6gfa47cappr
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928420
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:20 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：セッションID：1k63ldtogqcfehjhfl5b4t4c2g
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928425
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:25 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：セッションID：fijlr899fq9shaoiegpls7ee9m
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928428
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：セッションID：jv64md326hhcs4jme9gsbk41m7
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928435
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:00:35 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：セッションID：sev0nemgk0v3kjrjoq7jnm3m24
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928495
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:01:35 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：「　トップページ　
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：セッションID：97m4gbjjho7dp4c6ags3obsbmi
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928616
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：商品情報を取得します。
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:03:36 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：セッションID：kp906lcjv559g6c755312kv8uj
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928618
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:03:38 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：セッションID：khs7hh5i87f3reus6naistjkhe
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928631
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:03:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：セッションID：98fspecuahrj0amekhtop4jj4f
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928775
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：$err_msgチェックアカウントがロックされました
-[19-Mar-2019 02:06:15 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：セッションID：4nl131u0b91ngbdenk7dannr1c
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928907
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：$err_msgチェック:アカウントがロックされました
-[19-Mar-2019 02:08:27 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：セッションID：baj20j6m01a6hjg3fr7ijr50k3
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928910
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:08:30 Asia/Tokyo] PHP Notice:  Undefined index: lock_flg in /Applications/MAMP/htdocs/manto_web/login.php on line 106
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：$err_msgチェック:
-[19-Mar-2019 02:08:30 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：セッションID：3ashkhe8cqm8tdp73997mg7it6
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552928988
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:09:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：セッションID：bka12rq9us7p1i07ssv223178p
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929005
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:10:05 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：セッションID：8q0gkb0jn1fj8vmjettp3t2shp
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929006
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:10:06 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：セッションID：cl1obk3ppf6dcfskgthdduakmd
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929189
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:13:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：セッションID：gt9bs78m8j91e5effqac6sn7fg
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929243
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:14:03 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：セッションID：4u09ic8vg23ukkcv99t2sm0om1
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929265
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:14:25 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：セッションID：cqlvqvu9h8e27j4c2qsjskorn4
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929408
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:16:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：セッションID：s667rcuqivpaka71frq54r1emv
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929519
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:18:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：セッションID：4pv254j5lpjpn5cb2osr7sr8s3
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929523
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:18:43 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：セッションID：r7ve1b8fp2f4gdtr99jl7edf8f
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929524
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:18:44 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：セッションID：tq5b5j31ihjfspksa01i4uc80s
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929662
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：POSTの値:1
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:21:02 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：セッションID：f5ai07jdo596t771a358noh09g
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929708
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:21:48 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：セッションID：cguou693tnv84dvbbnccdpl3c8
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929741
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：POSTの値:1
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:22:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：セッションID：mhk64rvuh800l1gno2eqteq6u8
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552929939
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => aaaaaaaaaaa
-)
-
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:25:39 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：セッションID：192ijtpfe6fkqevqacli8ddk4u
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930157
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => aaaaaaaaaaa
-)
-
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:29:17 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：「　トップページ　
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：セッションID：sc0qhhhkng26hiq1en6j08ib6o
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930216
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：商品情報を取得します。
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：baseSQL：SELECT id FROM product
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：ソート用SQL：SELECT id FROM product
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：ページング用SQL：SELECT * FROM product LIMIT 20 OFFSET 0
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：カテゴリー情報を取得します。
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:30:16 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：セッションID：j7ii3qfkodmcna4sljtv2hg4um
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930218
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:30:18 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：セッションID：t8vgjj6bbuoj5ef2v13ng9vp0q
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930236
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => ssssssssss
-)
-
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:30:36 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：セッションID：h7uvq1m7ssq37adgr788rp8u8u
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930281
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => ssssssssss
-)
-
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：こっちを通ってる？
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:31:21 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：セッションID：i0458bbehs0vtv4hhj7qe7se6b
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930414
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => ssssssssss
-)
-
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：$resultの値:1
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:33:34 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：セッションID：b1ceuh4jmmo69tbkeill4n7609
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930433
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => ssssssssss
-)
-
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：$resultの値:Array
-(
-    [id] => 4
-    [username] => f
-    [age] => 26
-    [tel] => 09099999999
-    [zip] => 0
-    [addr] => 
-    [email] => phxxx447@yahoo.co.jp
-    [password] => $2y$10$KNygekh518tr0ecvaQSbsuscbu74D69nZ8HqTKpBfFXI38RFMFRc6
-    [login_time] => 2019-03-01 17:30:40
-    [pic] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
-    [delete_flg] => 0
-    [lock_flg] => 7
-    [create_date] => 2019-03-01 17:30:40
-    [update_date] => 2019-03-01 17:30:40
-)
-
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:33:53 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：セッションID：rjpethon27e7pqj7gcugk9gtg3
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930611
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => ssssssssss
-)
-
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：$resultの値:Array
-(
-    [id] => 4
-    [username] => f
-    [age] => 26
-    [tel] => 09099999999
-    [zip] => 0
-    [addr] => 
-    [email] => phxxx447@yahoo.co.jp
-    [password] => $2y$10$KNygekh518tr0ecvaQSbsuscbu74D69nZ8HqTKpBfFXI38RFMFRc6
-    [login_time] => 2019-03-01 17:30:40
-    [pic] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
-    [delete_flg] => 0
-    [lock_flg] => 8
-    [create_date] => 2019-03-01 17:30:40
-    [update_date] => 2019-03-01 17:30:40
-)
-
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:36:51 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：「　ログインページ　
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：セッションID：0l5kjp99p92valu4gsaoo2pv32
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
-(
-)
-
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1552930708
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：未ログインユーザーです。
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：POST送信があります。
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：POSTの値:Array
-(
-    [email] => phxxx447@yahoo.co.jp
-    [pass] => ssssssssss
-)
-
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：$err_msgの値Array
-(
-)
-
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：クエリ成功。
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：$resultの値:Array
-(
-    [id] => 4
-    [username] => f
-    [age] => 26
-    [tel] => 09099999999
-    [zip] => 0
-    [addr] => 
-    [email] => phxxx447@yahoo.co.jp
-    [password] => $2y$10$KNygekh518tr0ecvaQSbsuscbu74D69nZ8HqTKpBfFXI38RFMFRc6
-    [login_time] => 2019-03-01 17:30:40
-    [pic] => uploads/56ff71b1cf21657d8866d4c16d383cfe5cf877c4.jpeg
-    [delete_flg] => 0
-    [lock_flg] => 9
-    [create_date] => 2019-03-01 17:30:40
-    [update_date] => 2019-03-01 17:30:40
-)
-
-[19-Mar-2019 02:38:28 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

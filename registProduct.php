@@ -47,6 +47,7 @@ if(!empty($_POST)){
   //変数にユーザー情報を代入
   $name = $_POST['name'];
   $category = $_POST['category_id'];
+  $shipment = $_POST['shipment']; //発送の目安を受取る
   $price = (!empty($_POST['price'])) ? $_POST['price'] : 0; //０や空文字の場合は０を入れる。デフォルトのフォームには０が入っている。
   $comment = $_POST['comment'];
   //画像をアップロードし、パスを格納
@@ -64,8 +65,10 @@ if(!empty($_POST)){
     validRequired($name, 'name');
     //最大文字数チェック
     validMaxLen($name, 'name');
-    //セレクトボックスチェック
+    //セレクトボックスチェック(ID判定)
     validSelect($category, 'category_id');
+    //セレクトボックスチェック(テキスト判定)
+    validSelectText($shipment, 'shipment');
     //最大文字数チェック
     validMaxLen($comment, 'comment', 500);
     //未入力チェック
@@ -80,8 +83,12 @@ if(!empty($_POST)){
       validMaxLen($name, 'name');
     }
     if($dbFormData['category_id'] !== $category){
-      //セレクトボックスチェック
+      //セレクトボックスチェック(ID)
       validSelect($category, 'category_id');
+    }
+    if($dbFormData['shipment'] !== $shipment){
+      //セレクトボックスチェック(テキスト)
+      validSelect($shipment, 'shipment');
     }
     if($dbFormData['comment'] !== $comment){
       //最大文字数チェック
@@ -106,12 +113,12 @@ if(!empty($_POST)){
       // 編集画面の場合はUPDATE文、新規登録画面の場合はINSERT文を生成
       if($edit_flg){
         debug('DB更新です。');
-        $sql = 'UPDATE product SET name = :name, category_id = :category, price = :price, comment = :comment, pic1 = :pic1, pic2 = :pic2, pic3 = :pic3 WHERE user_id = :u_id AND id = :p_id';
-        $data = array(':name' => $name , ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
+        $sql = 'UPDATE product SET name = :name, category_id = :category, shipment = :shipment, price = :price, comment = :comment, pic1 = :pic1, pic2 = :pic2, pic3 = :pic3 WHERE user_id = :u_id AND id = :p_id';
+        $data = array(':name' => $name , ':category' => $category,':shipment' => $shipment,':price' => $price, ':comment' => $comment, ':pic1' => $pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
       }else{
         debug('DB新規登録です。');
-        $sql = 'insert into product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date ) values (:name, :category, :price, :comment,  :pic1, :pic2, :pic3, :u_id, :date)';
-        $data = array(':name' => $name , ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':date' => date('Y-m-d H:i:s'));
+        $sql = 'insert into product (name, category_id, shipment,price, comment, pic1, pic2, pic3, user_id, create_date ) values (:name, :category, :shipment, :price, :comment,  :pic1, :pic2, :pic3, :u_id, :date)';
+        $data = array(':name' => $name , ':category' => $category,':shipment' => $shipment, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':date' => date('Y-m-d H:i:s'));
       }
       debug('SQL：'.$sql);
       debug('流し込みデータ：'.print_r($data,true));
@@ -181,6 +188,7 @@ require('head.php');
                 ?>
               </select>
             </label>
+
             <div class="area-msg">
               <?php 
               if(!empty($err_msg['category_id'])) echo $err_msg['category_id'];
@@ -196,6 +204,15 @@ require('head.php');
               if(!empty($err_msg['comment'])) echo $err_msg['comment'];
               ?>
             </div>
+            <label class="<?php if(!empty($err_msg['shipment'])) echo 'err'; ?>">
+              発送目安<span class="label-require">必須</span>
+              <select name="shipment" id="">
+                <option value="0" <?php if(getFormData('shipment') == 0 ){ echo 'selected'; } ?> >選択してください</option>
+                <option value="1-2日で発送" <?php if(getFormData('shipment') == '1-2日で発送' ){ echo 'selected'; } ?>>1-2日で発送</option>
+                <option value="2-3日で発送" <?php if(getFormData('shipment') == '2-3日で発送' ){ echo 'selected'; } ?>>2-3日で発送</option>
+                <option value="4-7日で発送" <?php if(getFormData('shipment') == '4-7日で発送' ){ echo 'selected'; } ?>>4-7日で発送</option>
+              </select
+            </label>
             <label style="text-align:left;" class="<?php if(!empty($err_msg['price'])) echo 'err'; ?>">
               金額<span class="label-require">必須</span>
               <div class="form-group">
