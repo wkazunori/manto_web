@@ -24,7 +24,7 @@ if(!empty($_POST)){
   $pass_save = (!empty($_POST['pass_save'])) ? true : false; //ショートハンド（略記法）という書き方
   
   //アカウントロックチェック
-  validAccount($email, 'lock_flg');
+  validAccount($email, 'fail_times');
 
   //emailの形式チェック
   validEmail($email, 'email');
@@ -42,7 +42,8 @@ if(!empty($_POST)){
   validRequired($email, 'email');
   validRequired($pass, 'pass');
 
-  if(empty($err_msg)){
+  debug ('$err_msgの値'.print_r($err_msg,true));
+  if(empty($err_msg) || $err_msg['fail_times'] == MSG19){
     debug('バリデーションOKです。');
     
     //例外処理
@@ -50,7 +51,7 @@ if(!empty($_POST)){
       // DBへ接続
       $dbh = dbConnect();
       // SQL文作成
-      $sql = 'SELECT password,id  FROM users WHERE email = :email AND delete_flg = 0';
+      $sql = 'SELECT password,id,fail_times FROM users WHERE email = :email AND delete_flg = 0';
       $data = array(':email' => $email);
       // クエリ実行
       $stmt = queryPost($dbh, $sql, $data);
@@ -59,11 +60,16 @@ if(!empty($_POST)){
       
       debug('クエリ結果の中身：'.print_r($result,true));
       
-
       // パスワード照合
       if(!empty($result) && password_verify($pass, array_shift($result))){
         debug('パスワードがマッチしました。');
         
+        //ログイン失敗回数をリセットする
+        $sql = 'UPDATE users SET fail_times = 0 WHERE email = :email AND delete_flg = 0';
+        $data = array(':email' => $email);
+        // クエリ実行
+        $stmt = queryPost($dbh, $sql, $data);
+
         //ログイン有効期限（デフォルトを１時間とする）
         $sesLimit = 60*60;
         // 最終ログイン日時を現在日時に
@@ -91,11 +97,10 @@ if(!empty($_POST)){
         
         //usersテーブル内 ログインしようとしたアカウントが入ったレコードのlock_flgに1を足す
         // SQL文作成
-        $sql = 'UPDATE users SET lock_flg = lock_flg + 1 WHERE email = :email AND delete_flg = 0';
+        $sql = 'UPDATE users SET fail_times = fail_times + 1 WHERE email = :email AND delete_flg = 0';
         $data = array(':email' => $email);
         // クエリ実行
         $stmt = queryPost($dbh, $sql, $data);
-
       }
     } catch (Exception $e) {
       error_log('エラー発生:' . $e->getMessage());
@@ -124,7 +129,7 @@ require('head.php');
   <!-- ロックされたアカウントだった場合 -->
   <p id="js-show-msg2" style="display:none;" class="msg-slide-lockAccount">
     <?php 
-      if(!empty($err_msg['lock_flg'])) echo $err_msg['lock_flg'];
+      if(!empty($err_msg['fail_times'])) echo $err_msg['fail_times'];
     ?>
   </p>
 
