@@ -23,9 +23,6 @@ if(!empty($_POST)){
   $pass = $_POST['pass'];
   $pass_save = (!empty($_POST['pass_save'])) ? true : false; //ショートハンド（略記法）という書き方
   
-  //アカウントロックチェック
-  validAccount($email, 'fail_times');
-
   //emailの形式チェック
   validEmail($email, 'email');
   //emailの最大文字数チェック
@@ -43,7 +40,8 @@ if(!empty($_POST)){
   validRequired($pass, 'pass');
 
   debug ('$err_msgの値'.print_r($err_msg,true));
-  if(empty($err_msg) || $err_msg['fail_times'] == MSG19){
+
+  if(empty($err_msg)){
     debug('バリデーションOKです。');
     
     //例外処理
@@ -60,48 +58,66 @@ if(!empty($_POST)){
       
       debug('クエリ結果の中身：'.print_r($result,true));
       
-      // パスワード照合
-      if(!empty($result) && password_verify($pass, array_shift($result))){
-        debug('パスワードがマッチしました。');
-        
-        //ログイン失敗回数をリセットする
-        $sql = 'UPDATE users SET fail_times = 0 WHERE email = :email AND delete_flg = 0';
-        $data = array(':email' => $email);
-        // クエリ実行
-        $stmt = queryPost($dbh, $sql, $data);
-
-        //ログイン有効期限（デフォルトを１時間とする）
-        $sesLimit = 60*60;
-        // 最終ログイン日時を現在日時に
-        $_SESSION['login_date'] = time(); //time関数は1970年1月1日 00:00:00 を0として、1秒経過するごとに1ずつ増加させた値が入る
-        
-        // ログイン保持にチェックがある場合
-        if($pass_save){
-          debug('ログイン保持にチェックがあります。');
-          // ログイン有効期限を30日にしてセット
-          $_SESSION['login_limit'] = $sesLimit * 24 * 30;
-        }else{
-          debug('ログイン保持にチェックはありません。');
-          // 次回からログイン保持しないので、ログイン有効期限を1時間後にセット
-          $_SESSION['login_limit'] = $sesLimit;
-        }
-        // ユーザーIDを格納
-        $_SESSION['user_id'] = $result['id'];
-        debug('セッション変数の中身：'.print_r($_SESSION,true));
-        debug('マイページへ遷移します。');
-        header("Location:mypage.php"); //マイページへ        
-
-      }else{
-        debug('パスワードがアンマッチです。');
-        $err_msg['common'] = MSG09;
-        
-        //usersテーブル内 ログインしようとしたアカウントが入ったレコードのlock_flgに1を足す
-        // SQL文作成
+      //----------------------
+      // アカウントロックをチェック
+      if($result['fail_times'] == 4){
+        $err_msg['fail_times'] = MSG19;
+        // 次のログインでエラーメッセージを変えるために fail_timesを+1する
         $sql = 'UPDATE users SET fail_times = fail_times + 1 WHERE email = :email AND delete_flg = 0';
         $data = array(':email' => $email);
         // クエリ実行
         $stmt = queryPost($dbh, $sql, $data);
+      } else if ($result['fail_times'] >= 5){
+        $err_msg['fail_times'] = MSG20;
       }
+      //----------------------
+
+        //アカウントロックのどちらかに該当していない場合だけ処理を続ける
+        if(empty($err_msg)|| $err_msg['fail_times'] == MSG19){
+
+        // パスワード照合
+        if(!empty($result) && password_verify($pass, array_shift($result))){
+          debug('パスワードがマッチしました。');
+          
+          //ログイン失敗回数をリセットする
+          $sql = 'UPDATE users SET fail_times = 0 WHERE email = :email AND delete_flg = 0';
+          $data = array(':email' => $email);
+          // クエリ実行
+          $stmt = queryPost($dbh, $sql, $data);
+
+          //ログイン有効期限（デフォルトを１時間とする）
+          $sesLimit = 60*60;
+          // 最終ログイン日時を現在日時に
+          $_SESSION['login_date'] = time(); //time関数は1970年1月1日 00:00:00 を0として、1秒経過するごとに1ずつ増加させた値が入る
+          
+          // ログイン保持にチェックがある場合
+          if($pass_save){
+            debug('ログイン保持にチェックがあります。');
+            // ログイン有効期限を30日にしてセット
+            $_SESSION['login_limit'] = $sesLimit * 24 * 30;
+          }else{
+            debug('ログイン保持にチェックはありません。');
+            // 次回からログイン保持しないので、ログイン有効期限を1時間後にセット
+            $_SESSION['login_limit'] = $sesLimit;
+          }
+          // ユーザーIDを格納
+          $_SESSION['user_id'] = $result['id'];
+          debug('セッション変数の中身：'.print_r($_SESSION,true));
+          debug('マイページへ遷移します。');
+          header("Location:mypage.php"); //マイページへ        
+
+        }else{
+          debug('パスワードがアンマッチです。');
+          $err_msg['common'] = MSG09;
+          
+          //usersテーブル内 ログインしようとしたアカウントが入ったレコードのlock_flgに1を足す
+          // SQL文作成
+          $sql = 'UPDATE users SET fail_times = fail_times + 1 WHERE email = :email AND delete_flg = 0';
+          $data = array(':email' => $email);
+          // クエリ実行
+          $stmt = queryPost($dbh, $sql, $data);
+        }
+      }  
     } catch (Exception $e) {
       error_log('エラー発生:' . $e->getMessage());
       $err_msg['common'] = MSG07;

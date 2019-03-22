@@ -86,40 +86,6 @@ $err_msg = array();
 //================================
 // バリデーション関数
 //================================
-function validAccount($email, $key){
-  global $err_msg;
-  $err_msg = array();
-  debug ('$err_msgの値'.print_r($err_msg,true));
-  //例外処理
-    try {
-      // DBへ接続
-      $dbh = dbConnect();
-      // SQL文作成
-      $sql = 'SELECT * FROM users WHERE email = :email AND delete_flg = 0';
-      $data = array(':email' => $email);
-      // クエリ実行
-      $stmt = queryPost($dbh, $sql, $data);
-      // クエリ結果の値を取得
-      $result = $stmt->fetch(PDO::FETCH_ASSOC);
-      
-      debug('$resultの値:'.print_r($result,true));
-
-      if($result['fail_times'] == 4){
-        $err_msg[$key] = MSG19;
-        // 次のログインでエラーメッセージを変えるために fail_timesを+1する
-        $sql = 'UPDATE users SET fail_times = fail_times + 1 WHERE email = :email AND delete_flg = 0';
-        $data = array(':email' => $email);
-        // クエリ実行
-        $stmt = queryPost($dbh, $sql, $data);
-      } else if ($result['fail_times'] >= 5){
-        $err_msg[$key] = MSG20;
-      }
-
-    } catch (Exception $e) {
-      error_log('エラー発生:' . $e->getMessage());
-      $err_msg['common'] = MSG07;
-    }
-}
 
 //バリデーション関数（未入力チェック）
 function validRequired($str, $key){
