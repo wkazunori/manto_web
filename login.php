@@ -60,21 +60,12 @@ if (!empty($_POST)) {
 
       //----------------------
       // アカウントロックをチェック
-      if ($result['fail_times'] == 4) {
-        $err_msg['fail_times'] = MSG19;
-        // 次のログインでエラーメッセージを変えるために fail_timesを+1する
-        $sql = 'UPDATE users SET fail_times = fail_times + 1 WHERE email = :email AND delete_flg = 0';
-        $data = array(':email' => $email);
-        // クエリ実行
-        $stmt = queryPost($dbh, $sql, $data);
-      } else if ($result['fail_times'] >= 5) {
+      if ($result['fail_times'] >= 5) {
         $err_msg['fail_times'] = MSG20;
       }
       //----------------------
 
-      //アカウントロックのどちらかに該当していない場合だけ処理を続ける
-      if (empty($err_msg) || $err_msg['fail_times'] == MSG19) {
-
+      if (empty($err_msg)) {
         // パスワード照合
         if (!empty($result) && password_verify($pass, array_shift($result))) {
           debug('パスワードがマッチしました。');
@@ -106,15 +97,29 @@ if (!empty($_POST)) {
           debug('マイページへ遷移します。');
           header("Location:mypage.php"); //マイページへ        
         } else {
+
           debug('パスワードがアンマッチです。');
           $err_msg['common'] = MSG09;
 
-          //usersテーブル内 ログインしようとしたアカウントが入ったレコードのlock_flgに1を足す
+          //usersテーブル内 ログインしようとしたアカウントが入ったレコードのfail_timesに1を足す
           // SQL文作成
           $sql = 'UPDATE users SET fail_times = fail_times + 1 WHERE email = :email AND delete_flg = 0';
           $data = array(':email' => $email);
           // クエリ実行
           $stmt = queryPost($dbh, $sql, $data);
+
+          //failtimesが5に達していたらアカウントのロックを通知する
+          // SQL文作成
+          $sql = 'SELECT password,id,fail_times FROM users WHERE email = :email AND delete_flg = 0';
+          $data = array(':email' => $email);
+          // クエリ実行
+          $stmt = queryPost($dbh, $sql, $data);
+          // クエリ結果の値を取得
+          $result = $stmt->fetch(PDO::FETCH_ASSOC);
+
+          if ($result['fail_times'] == 5) {
+            $err_msg['fail_times'] = MSG19;
+          }
         }
       }
     } catch (Exception $e) {
