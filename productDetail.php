@@ -33,7 +33,9 @@ if (!empty($_SESSION['hist_log'])) {
   //$p_idがすでにあれば古いのを消す
   $target = array_search($p_id, $history, true);
 
-  if (!empty($target)) {
+  // if (isset($target)) {
+  // if (!empty($target)) {
+  if (false !== $target) { //array_searchで出力された添字が0の場合、ifの処理をスルーする場合があるので
     debug('$targetがある場合の値:' . $target);
     unset($history[$target]);
     //indexを詰める
@@ -48,7 +50,7 @@ if (!empty($_SESSION['hist_log'])) {
   //p_idを配列の最後尾に入れる
   $history[] = $p_id;
 } else {
-  debug('hist_logが無いので初期をセット');
+  debug('hist_logが無いので初期値をセット');
   $history = array();
   $history[] = $p_id;
 }
@@ -268,4 +270,4 @@ require 'head.php';
     <?php
     require 'footer.php';
     ?>
-    <!-- end of file --   >                                                                 
+    <!-- end of file --   >                                                                           
