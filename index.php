@@ -40,6 +40,10 @@ $dbProductData = getProductList($currentMinNum, $category, $sort, $price); //各
 $dbCategoryData = getCategory();
 //debug('DBデータ：'.print_r($dbFormData,true));
 //debug('カテゴリデータ：'.print_r($dbCategoryData,true));
+$dbProductHistoryData = getProductHistoryList();
+
+// debug('productDataの確認：' . print_r($dbProductData, true));
+debug('HistoryDataの確認：' . print_r($dbProductHistoryData, true));
 
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
@@ -157,7 +161,32 @@ require('head.php');
 
             <?php pagination($currentPageNum, $dbProductData['total_page']); ?>
 
+            <div class="list panel-list">
+                <h2 class="title" style="margin-bottom:15px;">
+                    閲覧履歴
+                </h2>
+                <?php
+                if (!empty($dbProductHistoryData)) {
+                  debug('$dbProductHistoryDataの値:' . print_r($dbProductHistoryData, true));
+                  foreach ($dbProductHistoryData as $key) :
+                    ?>
+                <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $key['id'] : '?p_id=' . $key['id']; ?>" class="panel">
+                    <div class="panel-head">
+                        <img src="<?php echo sanitize($key['pic1']); ?>" alt="<?php echo sanitize($key['name']); ?>">
+                    </div>
+                    <div class="panel-body">
+                        <p class="panel-title"><?php echo sanitize($key['name']); ?> <span class="price">¥<?php echo sanitize(number_format($key['price'])); ?></span></p>
+                    </div>
+                </a>
+                <?php
+              endforeach;
+            }
+            ?>
+            </div>
+
         </section>
+
+
 
     </div>
 

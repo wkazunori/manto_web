@@ -24,14 +24,17 @@ if (empty($viewData)) {
 }
 debug('取得したDBデータ：' . print_r($viewData, true));
 
+//--閲覧履歴機能を作成--
 //閲覧履歴用に$p_idを配列に格納(MAX3)
-$history = $_SESSION['hist_log'];
-if (!empty($history)) {
-  debug('$historyの値:' . print_r($history, true));
+if (!empty($_SESSION['hist_log'])) {
+  $history = $_SESSION['hist_log'];
+  debug('hist_logがある場合の値:' . print_r($history, true));
+
   //$p_idがすでにあれば古いのを消す
   $target = array_search($p_id, $history, true);
-  if (!isset($target)) {
-    debug('$targetの値:' . $target);
+
+  if (!empty($target)) {
+    debug('$targetがある場合の値:' . $target);
     unset($history[$target]);
     //indexを詰める
     $history = array_values($history);
@@ -45,11 +48,14 @@ if (!empty($history)) {
   //p_idを配列の最後尾に入れる
   $history[] = $p_id;
 } else {
+  debug('hist_logが無いので初期をセット');
+  $history = array();
   $history[] = $p_id;
 }
-debug('$historyの値:' . print_r($history, true));
+debug('$historyの出来上がり:' . print_r($history, true));
 $_SESSION['hist_log'] = $history;
-// unset($_SESSION['hist_log']);
+
+//--閲覧履歴機能を作成end--
 
 // post送信されていた場合
 if (!empty($_POST['submit'])) {
@@ -262,4 +268,4 @@ require 'head.php';
     <?php
     require 'footer.php';
     ?>
-    <!-- end of file --   >                                          
+    <!-- end of file --   >                                                                 
