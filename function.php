@@ -400,11 +400,11 @@ function getProductHistoryList() //プレスホルダ版←採用
 
       debug('inClauseの値：' . $inClause);
 
-      foreach ($history as $val) {
-        $hist_id[] = $val;
-      }
+      // foreach ($history as $val) {
+      //   $hist_id[] = $val;
+      // }
 
-      debug('$hist_idの出来上がり確認：' . print_r($hist_id, true));
+      // debug('$hist_idの出来上がり確認：' . print_r($hist_id, true));
 
       //-------------------------
 
@@ -418,7 +418,7 @@ function getProductHistoryList() //プレスホルダ版←採用
       $sql .= ')';
 
       // クエリ実行
-      $stmt = queryPost($dbh, $sql, $hist_id);
+      $stmt = queryPost($dbh, $sql, $history);
 
       // クエリ結果のデータを返却
       if ($stmt) {
