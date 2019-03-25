@@ -350,7 +350,7 @@ function getProduct($u_id, $p_id)
     error_log('エラー発生:' . $e->getMessage());
   }
 }
-function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20)
+function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20) //購入済み商品の除外ver
 {
   debug('商品情報を取得します。');
   //例外処理
@@ -358,32 +358,25 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     // DBへ接続
     $dbh = dbConnect();
     // 件数用のSQL文作成
-    $sql = 'SELECT id FROM product';
-    if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
-
-    debug('baseSQL：' . $sql);
-    if (preg_match("/WHERE/", $sql)) { //preg_match 文字列が含むかどうか判定
-      $junction = ' AND';
-    } else {
-      $junction = ' WHERE'; //$junction =接続詞用変数
-    }
+    $sql = 'SELECT id FROM product WHERE buy_flg != 1';
+    if (!empty($category)) $sql .= ' AND category_id = ' . $category;
 
     if (!empty($price)) {
       switch ($price) {
         case 1:
-          $sql .= $junction . ' price BETWEEN 0 AND 1500';
+          $sql .= ' AND price BETWEEN 0 AND 1500';
           break;
         case 2:
-          $sql .= $junction . ' price BETWEEN 1500 AND 3000';
+          $sql .= ' AND price BETWEEN 1500 AND 3000';
           break;
         case 3:
-          $sql .= $junction . ' price BETWEEN 3000 AND 5000';
+          $sql .= ' AND price BETWEEN 3000 AND 5000';
           break;
         case 4:
-          $sql .= $junction . ' price BETWEEN 5000 AND 10000';
+          $sql .= ' AND price BETWEEN 5000 AND 10000';
           break;
         case 5:
-          $sql .= $junction . ' price >= 15000';
+          $sql .= ' AND price >= 15000';
           break;
       }
     }
@@ -410,31 +403,25 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     }
 
     // ページング用のSQL文作成
-    $sql = 'SELECT * FROM product';
-    if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
-
-    if (!preg_match("/WHERE/", $sql)) { //preg_match 文字列が含むかどうか判定
-      $junction = ' WHERE'; //$junction =接続詞用変数
-    } else {
-      $junction = ' AND';
-    }
+    $sql = 'SELECT * FROM product WHERE buy_flg != 1';
+    if (!empty($category)) $sql .= ' AND category_id = ' . $category;
 
     if (!empty($price)) {
       switch ($price) {
         case 1:
-          $sql .= $junction . ' price BETWEEN 0 AND 1500';
+          $sql .= ' AND price BETWEEN 0 AND 1500';
           break;
         case 2:
-          $sql .= $junction . ' price BETWEEN 1500 AND 3000';
+          $sql .= ' AND price BETWEEN 1500 AND 3000';
           break;
         case 3:
-          $sql .= $junction . ' price BETWEEN 3000 AND 5000';
+          $sql .= ' AND price BETWEEN 3000 AND 5000';
           break;
         case 4:
-          $sql .= $junction . ' price BETWEEN 5000 AND 10000';
+          $sql .= ' AND price BETWEEN 5000 AND 10000';
           break;
         case 5:
-          $sql .= $junction . ' price >= 15000';
+          $sql .= ' AND price >= 15000';
           break;
       }
     }
@@ -467,6 +454,124 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+// function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20) //task5実装前
+// {
+//   debug('商品情報を取得します。');
+//   //例外処理
+//   try {
+//     // DBへ接続
+//     $dbh = dbConnect();
+//     // 件数用のSQL文作成
+//     $sql = 'SELECT id FROM product';
+//     if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
+
+//     debug('baseSQL：' . $sql);
+//     if (preg_match("/WHERE/", $sql)) { //preg_match 文字列が含むかどうか判定
+//       $junction = ' AND';
+//     } else {
+//       $junction = ' WHERE'; //$junction =接続詞用変数
+//     }
+
+//     if (!empty($price)) {
+//       switch ($price) {
+//         case 1:
+//           $sql .= $junction . ' price BETWEEN 0 AND 1500';
+//           break;
+//         case 2:
+//           $sql .= $junction . ' price BETWEEN 1500 AND 3000';
+//           break;
+//         case 3:
+//           $sql .= $junction . ' price BETWEEN 3000 AND 5000';
+//           break;
+//         case 4:
+//           $sql .= $junction . ' price BETWEEN 5000 AND 10000';
+//           break;
+//         case 5:
+//           $sql .= $junction . ' price >= 15000';
+//           break;
+//       }
+//     }
+
+//     if (!empty($sort)) {
+//       switch ($sort) {
+//         case 1:
+//           $sql .= ' ORDER BY price ASC';
+//           break;
+//         case 2:
+//           $sql .= ' ORDER BY price DESC';
+//           break;
+//       }
+//     }
+
+//     $data = array();
+//     debug('ソート用SQL：' . $sql);
+//     // クエリ実行
+//     $stmt = queryPost($dbh, $sql, $data);
+//     $rst['total'] = $stmt->rowCount(); //総レコード数
+//     $rst['total_page'] = ceil($rst['total'] / $span); //総ページ数
+//     if (!$stmt) {
+//       return false;
+//     }
+
+//     // ページング用のSQL文作成
+//     $sql = 'SELECT * FROM product';
+//     if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
+
+//     if (!preg_match("/WHERE/", $sql)) { //preg_match 文字列が含むかどうか判定
+//       $junction = ' WHERE'; //$junction =接続詞用変数
+//     } else {
+//       $junction = ' AND';
+//     }
+
+//     if (!empty($price)) {
+//       switch ($price) {
+//         case 1:
+//           $sql .= $junction . ' price BETWEEN 0 AND 1500';
+//           break;
+//         case 2:
+//           $sql .= $junction . ' price BETWEEN 1500 AND 3000';
+//           break;
+//         case 3:
+//           $sql .= $junction . ' price BETWEEN 3000 AND 5000';
+//           break;
+//         case 4:
+//           $sql .= $junction . ' price BETWEEN 5000 AND 10000';
+//           break;
+//         case 5:
+//           $sql .= $junction . ' price >= 15000';
+//           break;
+//       }
+//     }
+
+//     if (!empty($sort)) {
+//       switch ($sort) {
+//         case 1:
+//           $sql .= ' ORDER BY price ASC';
+//           break;
+//         case 2:
+//           $sql .= ' ORDER BY price DESC';
+//           break;
+//       }
+//     }
+
+//     $sql .= ' LIMIT ' . $span . ' OFFSET ' . $currentMinNum;
+//     $data = array();
+//     debug('ページング用SQL：' . $sql);
+//     // クエリ実行
+//     $stmt = queryPost($dbh, $sql, $data);
+
+//     if ($stmt) {
+//       // クエリ結果のデータを全レコードを格納
+//       $rst['data'] = $stmt->fetchAll();
+//       return $rst;
+//     } else {
+//       return false;
+//     }
+//   } catch (Exception $e) {
+//     error_log('エラー発生:' . $e->getMessage());
+//   }
+// }
+
 function getProductOne($p_id)
 {
   debug('商品情報を取得します。');
