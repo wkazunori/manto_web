@@ -35,14 +35,14 @@ if (!empty($_SESSION['hist_log'])) {
 
   // if (isset($target)) {
   // if (!empty($target)) {
-  if (false !== $target) { //array_searchで出力された添字が0の場合、ifの処理をスルーする場合があるので
+  if ($target !== false) { //array_searchで出力された添字が0の場合、ifの処理をスルーする場合があるので
     debug('$targetがある場合の値:' . $target);
     unset($history[$target]);
     //indexを詰める
     $history = array_values($history);
   }
 
-  //配列の要素数が4つあれば配列の先頭を消す
+  //配列の要素数が3つあれば配列の先頭を消す
   if (count($history) == 3) {
     array_shift($history);
   }
@@ -270,4 +270,4 @@ require 'head.php';
     <?php
     require 'footer.php';
     ?>
-    <!-- end of file --   >                                                                           
+    <!-- end of file --   >                                                                             

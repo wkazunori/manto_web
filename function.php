@@ -400,7 +400,6 @@ function getProductHistoryList() //プレスホルダ版←採用
 
       debug('inClauseの値：' . $inClause);
 
-      $hist_id = array();
       foreach ($history as $val) {
         $hist_id[] = $val;
       }
@@ -418,10 +417,8 @@ function getProductHistoryList() //プレスホルダ版←採用
       $sql = mb_substr($sql, 0, -1, "UTF-8");
       $sql .= ')';
 
-      $data = $hist_id;
-
       // クエリ実行
-      $stmt = queryPost($dbh, $sql, $data);
+      $stmt = queryPost($dbh, $sql, $hist_id);
 
       // クエリ結果のデータを返却
       if ($stmt) {
