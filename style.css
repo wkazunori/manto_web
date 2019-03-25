@@ -367,6 +367,15 @@ a.panel:hover {
   background: #b6a489;
   color: white;
 }
+.btn.btn-sold {
+  background: #EA352C;
+  color: white;
+}
+.btn-sold-wrapper{
+  display: flex;
+  justify-content: center; /*左右中央揃え*/
+  align-items: center;     /*上下中央揃え*/
+}
 
 .btn.btn-mid {
   max-width: 150px;
