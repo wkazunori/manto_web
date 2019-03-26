@@ -295,10 +295,12 @@ function queryPost($dbh, $sql, $data)
   if (!$stmt->execute($data)) {
     debug('クエリに失敗しました。');
     debug('失敗したSQL：' . print_r($stmt, true));
+    debug('SQLエラー：' . print_r($stmt->errorInfo(), true));
     $err_msg['common'] = MSG07;
     return 0;
   }
   debug('クエリ成功。');
+  debug('成功したSQL：' . print_r($stmt, true));
   return $stmt;
 }
 function getUser($u_id)
@@ -325,6 +327,113 @@ function getUser($u_id)
   }
   //  return $stmt->fetch(PDO::FETCH_ASSOC);
 }
+
+// function getProductHistoryList()//SQL数珠つなぎ版←SQLインジェクション対策で不採用
+// {
+//   debug('閲覧履歴を取得します。');
+//   //例外処理
+//   if (!empty($_SESSION['hist_log'])) {
+//     try {
+//       // DBへ接続
+//       $dbh = dbConnect();
+//       // SQL文作成
+
+//       $sql = 'SELECT id, name, price, pic1 FROM product WHERE';
+
+//       //-------------------------
+//       $history = $_SESSION['hist_log'];
+//       debug('$historyの確認：' . print_r($history, true));
+
+//       foreach ($history as $val) {
+//         $sql .= ' id = ' . $val . ' OR';
+//       }
+//       $sql = mb_substr($sql, 0, -2, "UTF-8");
+//       //最後の,を取り除く
+
+//       $sql .= 'AND delete_flg = 0';
+
+//       $sql .= ' order by field(id, ';
+//       foreach ($history as $val) {
+//         $sql .= $val . ',';
+//       }
+//       $sql = mb_substr($sql, 0, -1, "UTF-8");
+//       $sql .= ')';
+
+//       debug('$sqlの出来上がり確認：' . $sql);
+//       //-------------------------
+
+//       $data = array();
+
+//       // クエリ実行
+//       $stmt = queryPost($dbh, $sql, $data);
+
+//       // クエリ結果のデータを返却
+//       if ($stmt) {
+//         // クエリ結果のデータを全レコードを格納
+//         $rst = $stmt->fetchAll();
+//         return $rst;
+//       } else {
+//         return false;
+//       }
+//     } catch (Exception $e) {
+//       error_log('エラー発生:' . $e->getMessage());
+//     }
+//   }
+// }
+
+function getProductHistoryList() //プレスホルダ版←採用
+{
+  debug('閲覧履歴を取得します。');
+  //例外処理
+  if (!empty($_SESSION['hist_log'])) {
+    try {
+      // DBへ接続
+      $dbh = dbConnect();
+      // SQL文作成
+
+      //-------------------------
+
+      $history = $_SESSION['hist_log'];
+      debug('$historyの確認：' . print_r($history, true));
+
+      $inClause = substr(str_repeat(',?', count($history)), 1); // '?,?,?'を作成
+
+      debug('inClauseの値：' . $inClause);
+
+      // foreach ($history as $val) {
+      //   $hist_id[] = $val;
+      // }
+
+      // debug('$hist_idの出来上がり確認：' . print_r($hist_id, true));
+
+      //-------------------------
+
+      $sql = "SELECT * FROM product WHERE id IN ({$inClause}) AND delete_flg = 0";
+
+      $sql .= ' order by field(id, ';
+      foreach ($history as $val) {
+        $sql .= $val . ',';
+      }
+      $sql = mb_substr($sql, 0, -1, "UTF-8");
+      $sql .= ')';
+
+      // クエリ実行
+      $stmt = queryPost($dbh, $sql, $history);
+
+      // クエリ結果のデータを返却
+      if ($stmt) {
+        // クエリ結果のデータを全レコードを格納
+        $rst = $stmt->fetchAll();
+        return $rst;
+      } else {
+        return false;
+      }
+    } catch (Exception $e) {
+      error_log('エラー発生:' . $e->getMessage());
+    }
+  }
+}
+
 function getProduct($u_id, $p_id)
 {
   debug('商品情報を取得します。');
@@ -350,6 +459,7 @@ function getProduct($u_id, $p_id)
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+
 function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20) //購入済み商品の除外ver
 {
   debug('商品情報を取得します。');

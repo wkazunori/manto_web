@@ -25,12 +25,47 @@ if (empty($viewData)) {
 }
 debug('取得したDBデータ：' . print_r($viewData, true));
 
+//--閲覧履歴機能を作成--
+//閲覧履歴用に$p_idを配列に格納(MAX3)
+if (!empty($_SESSION['hist_log'])) {
+  $history = $_SESSION['hist_log'];
+  debug('hist_logがある場合の値:' . print_r($history, true));
+
+  //$p_idがすでにあれば古いのを消す
+  $target = array_search($p_id, $history, true);
+
+  // if (isset($target)) {
+  // if (!empty($target)) {
+  if ($target !== false) { //array_searchで出力された添字が0の場合、ifの処理をスルーする場合があるので
+    debug('$targetがある場合の値:' . $target);
+    unset($history[$target]);
+    //indexを詰める
+    $history = array_values($history);
+  }
+
+  //配列の要素数が3つあれば配列の先頭を消す
+  if (count($history) == 3) {
+    array_shift($history);
+  }
+
+  //p_idを配列の最後尾に入れる
+  $history[] = $p_id;
+} else {
+  debug('hist_logが無いので初期値をセット');
+  $history = array();
+  $history[] = $p_id;
+}
+debug('$historyの出来上がり:' . print_r($history, true));
+$_SESSION['hist_log'] = $history;
+
+//--閲覧履歴機能を作成end--
+
 // post送信されていた場合
 if (!empty($_POST['submit'])) {
   debug('POST送信があります。');
 
   //ログイン認証
-  require('auth.php');
+  require 'auth.php';
 
   //例外処理
   try {
@@ -172,12 +207,6 @@ require('head.php');
 
         .product-buy .btn:hover {
             cursor: pointer;
-        }
-
-        .product-buy .btn {
-            border: none;
-            font-size: 18px;
-            padding: 10px 30px;
         }
 
         /*お気に入りアイコン*/
