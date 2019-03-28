@@ -209,6 +209,10 @@ require('head.php');
             cursor: pointer;
         }
 
+        .product-buy .btn.btn-sold:hover {
+            cursor: not-allowed;
+        }
+
         /*お気に入りアイコン*/
         .icn-like {
             float: right;
