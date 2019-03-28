@@ -1,6 +1,6 @@
 <?php
  //共通変数・関数ファイルを読込み
-require 'function.php';
+require('function.php');
 
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 debug('「　商品詳細ページ　');
@@ -15,6 +15,7 @@ debugLogStart();
 //================================
 // 商品IDのGETパラメータを取得
 $p_id = (!empty($_GET['p_id'])) ? $_GET['p_id'] : '';
+
 // DBから商品データを取得
 $viewData = getProductOne($p_id);
 // パラメータに不正な値が入っているかチェック
@@ -70,6 +71,8 @@ if (!empty($_POST['submit'])) {
   try {
     // DBへ接続
     $dbh = dbConnect();
+
+    //購入ユーザーと販売ユーザー用の掲示板を作成
     // SQL文作成
     $sql = 'INSERT INTO bord (sale_user, buy_user, product_id, create_date) VALUES (:s_uid, :b_uid, :p_id, :date)';
     $data = array(':s_uid' => $viewData['user_id'], ':b_uid' => $_SESSION['user_id'], ':p_id' => $p_id, ':date' => date('Y-m-d H:i:s'));
@@ -82,6 +85,13 @@ if (!empty($_POST['submit'])) {
       debug('連絡掲示板へ遷移します。');
       header("Location:msg.php?m_id=" . $dbh->lastInsertID()); //連絡掲示板へ
     }
+
+    //productテーブルに購入flgと購入ユーザーの情報を挿入
+    // SQL文作成
+    $sql = "UPDATE product SET buy_user = :b_uid, buy_flg = 1 WHERE id = :p_id";
+    $data = array(':b_uid' => $_SESSION['user_id'], ':p_id' => $p_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
   } catch (Exception $e) {
     error_log('エラー発生:' . $e->getMessage());
     $err_msg['common'] = MSG07;
@@ -91,7 +101,7 @@ debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ?>
 <?php
 $siteTitle = '商品詳細';
-require 'head.php';
+require('head.php');
 ?>
 
 <body class="page-productDetail page-1colum">
@@ -199,6 +209,10 @@ require 'head.php';
             cursor: pointer;
         }
 
+        .product-buy .btn.btn-sold:hover {
+            cursor: not-allowed;
+        }
+
         /*お気に入りアイコン*/
         .icn-like {
             float: right;
@@ -217,7 +231,7 @@ require 'head.php';
 
     <!-- ヘッダー -->
     <?php
-    require 'header.php';
+    require('header.php');
     ?>
 
     <!-- メインコンテンツ -->
@@ -253,9 +267,20 @@ require 'head.php';
                 </div>
                 <form action="" method="post">
                     <!-- formタグを追加し、ボタンをinputに変更し、style追加 -->
+                    <?php 
+                    if (sanitize($viewData['buy_flg']) == 1) {
+                      ?>
+                    <div class="item-right btn-sold-wrapper">
+                        <input type="submit" value="売り切れました" name="submit" class="btn btn-sold" style="margin-top:0;" disabled>
+                    </div>
+                    <?php 
+                  } else {
+                    ?>
                     <div class="item-right">
                         <input type="submit" value="買う!" name="submit" class="btn btn-primary" style="margin-top:0;">
                     </div>
+                    <?php 
+                  } ?>
                 </form>
                 <div class="item-right">
                     <p class="price">¥<?php echo sanitize(number_format($viewData['price'])); ?>-</p>
@@ -268,6 +293,5 @@ require 'head.php';
 
     <!-- footer -->
     <?php
-    require 'footer.php';
-    ?>
-    <!-- end of file --   >                                                                             
+    require('footer.php');
+    ?> 

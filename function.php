@@ -328,59 +328,6 @@ function getUser($u_id)
   //  return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
-// function getProductHistoryList()//SQL数珠つなぎ版←SQLインジェクション対策で不採用
-// {
-//   debug('閲覧履歴を取得します。');
-//   //例外処理
-//   if (!empty($_SESSION['hist_log'])) {
-//     try {
-//       // DBへ接続
-//       $dbh = dbConnect();
-//       // SQL文作成
-
-//       $sql = 'SELECT id, name, price, pic1 FROM product WHERE';
-
-//       //-------------------------
-//       $history = $_SESSION['hist_log'];
-//       debug('$historyの確認：' . print_r($history, true));
-
-//       foreach ($history as $val) {
-//         $sql .= ' id = ' . $val . ' OR';
-//       }
-//       $sql = mb_substr($sql, 0, -2, "UTF-8");
-//       //最後の,を取り除く
-
-//       $sql .= 'AND delete_flg = 0';
-
-//       $sql .= ' order by field(id, ';
-//       foreach ($history as $val) {
-//         $sql .= $val . ',';
-//       }
-//       $sql = mb_substr($sql, 0, -1, "UTF-8");
-//       $sql .= ')';
-
-//       debug('$sqlの出来上がり確認：' . $sql);
-//       //-------------------------
-
-//       $data = array();
-
-//       // クエリ実行
-//       $stmt = queryPost($dbh, $sql, $data);
-
-//       // クエリ結果のデータを返却
-//       if ($stmt) {
-//         // クエリ結果のデータを全レコードを格納
-//         $rst = $stmt->fetchAll();
-//         return $rst;
-//       } else {
-//         return false;
-//       }
-//     } catch (Exception $e) {
-//       error_log('エラー発生:' . $e->getMessage());
-//     }
-//   }
-// }
-
 function getProductHistoryList() //プレスホルダ版←採用
 {
   debug('閲覧履歴を取得します。');
@@ -459,7 +406,8 @@ function getProduct($u_id, $p_id)
     error_log('エラー発生:' . $e->getMessage());
   }
 }
-function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20)
+
+function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20) //購入済み商品の除外ver
 {
   debug('商品情報を取得します。');
   //例外処理
@@ -467,32 +415,25 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     // DBへ接続
     $dbh = dbConnect();
     // 件数用のSQL文作成
-    $sql = 'SELECT id FROM product';
-    if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
-
-    debug('baseSQL：' . $sql);
-    if (preg_match("/WHERE/", $sql)) { //preg_match 文字列が含むかどうか判定
-      $junction = ' AND';
-    } else {
-      $junction = ' WHERE'; //$junction =接続詞用変数
-    }
+    $sql = 'SELECT id FROM product WHERE buy_flg != 1';
+    if (!empty($category)) $sql .= ' AND category_id = ' . $category;
 
     if (!empty($price)) {
       switch ($price) {
         case 1:
-          $sql .= $junction . ' price BETWEEN 0 AND 1500';
+          $sql .= ' AND price BETWEEN 0 AND 1500';
           break;
         case 2:
-          $sql .= $junction . ' price BETWEEN 1500 AND 3000';
+          $sql .= ' AND price BETWEEN 1500 AND 3000';
           break;
         case 3:
-          $sql .= $junction . ' price BETWEEN 3000 AND 5000';
+          $sql .= ' AND price BETWEEN 3000 AND 5000';
           break;
         case 4:
-          $sql .= $junction . ' price BETWEEN 5000 AND 10000';
+          $sql .= ' AND price BETWEEN 5000 AND 10000';
           break;
         case 5:
-          $sql .= $junction . ' price >= 15000';
+          $sql .= ' AND price >= 15000';
           break;
       }
     }
@@ -519,31 +460,25 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     }
 
     // ページング用のSQL文作成
-    $sql = 'SELECT * FROM product';
-    if (!empty($category)) $sql .= ' WHERE category_id = ' . $category;
-
-    if (!preg_match("/WHERE/", $sql)) { //preg_match 文字列が含むかどうか判定
-      $junction = ' WHERE'; //$junction =接続詞用変数
-    } else {
-      $junction = ' AND';
-    }
+    $sql = 'SELECT * FROM product WHERE buy_flg != 1';
+    if (!empty($category)) $sql .= ' AND category_id = ' . $category;
 
     if (!empty($price)) {
       switch ($price) {
         case 1:
-          $sql .= $junction . ' price BETWEEN 0 AND 1500';
+          $sql .= ' AND price BETWEEN 0 AND 1500';
           break;
         case 2:
-          $sql .= $junction . ' price BETWEEN 1500 AND 3000';
+          $sql .= ' AND price BETWEEN 1500 AND 3000';
           break;
         case 3:
-          $sql .= $junction . ' price BETWEEN 3000 AND 5000';
+          $sql .= ' AND price BETWEEN 3000 AND 5000';
           break;
         case 4:
-          $sql .= $junction . ' price BETWEEN 5000 AND 10000';
+          $sql .= ' AND price BETWEEN 5000 AND 10000';
           break;
         case 5:
-          $sql .= $junction . ' price >= 15000';
+          $sql .= ' AND price >= 15000';
           break;
       }
     }
@@ -576,6 +511,7 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+
 function getProductOne($p_id)
 {
   debug('商品情報を取得します。');
@@ -585,7 +521,7 @@ function getProductOne($p_id)
     // DBへ接続
     $dbh = dbConnect();
     // SQL文作成
-    $sql = 'SELECT p.id , p.name , p.comment, p.shipment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category 
+    $sql = 'SELECT p.id , p.name , p.comment, p.shipment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.buy_user, p.buy_flg, p.create_date, p.update_date, c.name AS category 
             FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
     $data = array(':p_id' => $p_id);
     // クエリ実行
@@ -601,6 +537,7 @@ function getProductOne($p_id)
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+
 function getMyProducts($u_id)
 {
   debug('自分の商品情報を取得します。');
@@ -625,6 +562,32 @@ function getMyProducts($u_id)
     error_log('エラー発生:' . $e->getMessage());
   }
 }
+function getMySaleProducts($u_id)
+{
+  debug('売却済みの商品情報を取得します。');
+  debug('ユーザーID：' . $u_id);
+  //例外処理
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * FROM product WHERE user_id = :u_id AND buy_flg = 1 AND delete_flg = 0';
+    $data = array(':u_id' => $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if ($stmt) {
+      // クエリ結果のデータを全レコード返却
+      return $stmt->fetchAll();
+    } else {
+      return false;
+    }
+  } catch (Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+  }
+}
+
+
 function getMsgsAndBord($id)
 { //オリジナル設定
   debug('getMsgsAndBordの処理開始');
