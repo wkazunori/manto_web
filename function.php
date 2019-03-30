@@ -328,9 +328,41 @@ function getUser($u_id)
   //  return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
-function getProductHistoryList() //プレスホルダ版←採用
+function getProductWatchList() //ログイン済みユーザーの閲覧履歴管理
 {
-  debug('閲覧履歴を取得します。');
+  if (!empty($_SESSION['login_date'])) {
+    //login済みユーザー
+    debug('ログイン済みユーザーの閲覧履歴を取得します。');
+    //例外処理
+    try {
+      //DBへ接続
+      $dbh = dbConnect();
+
+      // SQL分作成
+      $sql = 'SELECT w.user_id ,w.product_id ,max(w.create_date), p.name,p.price,p.pic1 FROM watch as w LEFT JOIN product as p ON w.product_id = p.id GROUP BY w.user_id,w.product_id,p.name,p.price,p.pic1 HAVING user_id = :u_id ORDER BY max(w.create_date) DESC limit 3';
+
+      $data = array(':u_id' => $_SESSION['user_id']);
+
+      // クエリ実行
+      $stmt = queryPost($dbh, $sql, $data);
+
+      // クエリ結果のデータを返却
+      if ($stmt) {
+        // クエリ結果のデータを全レコードを格納
+        $rst = $stmt->fetchAll();
+        return $rst;
+      } else {
+        return false;
+      }
+    } catch (Exception $e) {
+      error_log('エラー発生:' . $e->getMessage());
+    }
+  }
+}
+
+function getProductHistoryList() //未ログインユーザー用の閲覧履歴管理
+{
+  debug('未ログインユーザーの閲覧履歴を取得します。');
   //例外処理
   if (!empty($_SESSION['hist_log'])) {
     try {
@@ -394,7 +426,11 @@ function getProduct($u_id, $p_id)
     $sql = 'SELECT * FROM product WHERE user_id = :u_id AND id = :p_id AND delete_flg = 0';
     $data = array(':u_id' => $u_id, ':p_id' => $p_id);
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果のデータを１レコード返却
@@ -498,7 +534,11 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     $data = array();
     debug('ページング用SQL：' . $sql);
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果のデータを全レコードを格納
@@ -525,7 +565,11 @@ function getProductOne($p_id)
             FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
     $data = array(':p_id' => $p_id);
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果のデータを１レコード返却
@@ -550,7 +594,11 @@ function getMyProducts($u_id)
     $sql = 'SELECT * FROM product WHERE user_id = :u_id AND delete_flg = 0';
     $data = array(':u_id' => $u_id);
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果のデータを全レコード返却
@@ -574,7 +622,11 @@ function getMySaleProducts($u_id)
     $sql = 'SELECT * FROM product WHERE user_id = :u_id AND buy_flg = 1 AND delete_flg = 0';
     $data = array(':u_id' => $u_id);
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果のデータを全レコード返却
@@ -620,7 +672,11 @@ function getMsgsAndBord($id)
     $data = array(':id' => $id);
 
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果の全データを返却
@@ -680,7 +736,11 @@ function getCategory()
     $sql = 'SELECT * FROM category';
     $data = array();
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果の全データを返却
@@ -730,7 +790,11 @@ function getMyLike($u_id)
     $sql = 'SELECT * FROM `like` AS l LEFT JOIN product AS p ON l.product_id = p.id WHERE l.user_id = :u_id';
     $data = array(':u_id' => $u_id);
     // クエリ実行
-    $stmt = queryPost($dbh, $sql, $data);
+    $stmt = queryPost(
+      $dbh,
+      $sql,
+      $data
+    );
 
     if ($stmt) {
       // クエリ結果の全データを返却
@@ -822,7 +886,11 @@ function makeRandKey($length = 8)
 {
   static $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJLKMNOPQRSTUVWXYZ0123456789';
   $str = '';
-  for ($i = 0; $i < $length; ++$i) {
+  for (
+    $i = 0;
+    $i < $length;
+    ++$i
+  ) {
     $str .= $chars[mt_rand(0, 61)];
   }
   return $str;
@@ -833,7 +901,9 @@ function uploadImg($file, $key)
   debug('画像アップロード処理開始');
   debug('FILE情報：' . print_r($file, true));
 
-  if (isset($file['error']) && is_int($file['error'])) {
+  if (
+    isset($file['error']) && is_int($file['error'])
+  ) {
     try {
       // バリデーション
       // $file['error'] の値を確認。配列内には「UPLOAD_ERR_OK」などの定数が入っている。
@@ -862,7 +932,10 @@ function uploadImg($file, $key)
       // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
       // image_type_to_extension関数はファイルの拡張子を取得するもの
       $path = 'uploads/' . sha1_file($file['tmp_name']) . image_type_to_extension($type);
-      if (!move_uploaded_file($file['tmp_name'], $path)) { //ファイルを移動する
+      if (!move_uploaded_file(
+        $file['tmp_name'],
+        $path
+      )) { //ファイルを移動する
         throw new RuntimeException('ファイル保存時にエラーが発生しました');
       }
       // 保存したファイルパスのパーミッション（権限）を変更する
@@ -924,7 +997,9 @@ function pagination($currentPageNum, $totalPageNum, $link = '', $pageColNum = 5)
     }
     echo '"><a href="?p=' . $i . $link . '">' . $i . '</a></li>';
   }
-  if ($currentPageNum != $maxPageNum && $maxPageNum > 1) {
+  if (
+    $currentPageNum != $maxPageNum && $maxPageNum > 1
+  ) {
     echo '<li class="list-item"><a href="?p=' . $maxPageNum . $link . '">&gt;</a></li>';
   }
   echo '</ul>';

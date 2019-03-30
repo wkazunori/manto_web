@@ -38,12 +38,19 @@ $currentMinNum = (($currentPageNum - 1) * $listSpan); //1ページ目なら(1-1)
 $dbProductData = getProductList($currentMinNum, $category, $sort, $price); //各種ソートフラグを渡して、プロダクトテーブルから取得する内容を絞る
 // DBからカテゴリデータを取得
 $dbCategoryData = getCategory();
-//debug('DBデータ：'.print_r($dbFormData,true));
-//debug('カテゴリデータ：'.print_r($dbCategoryData,true));
-$dbProductHistoryData = getProductHistoryList();
 
+// 非ログインユーザーが閲覧したデータが入っているSESSION情報を取り出す
+$dbProductHistoryData = getProductHistoryList();
 // debug('productDataの確認：' . print_r($dbProductData, true));
 debug('HistoryDataの確認：' . print_r($dbProductHistoryData, true));
+
+// DBからログインユーザーが閲覧したデータを取り出す
+$dbProductWatchData = getProductWatchList();
+if (!empty($dbProductWatchData)) {
+  $dbProductWatchData = array_reverse($dbProductWatchData, true); //DBから新しい情報を上から3つ取り出しており、一覧には並びを古→新にしたいのでreverseする
+}
+debug('WatchDataの確認：' . print_r($dbProductWatchData, true));
+
 
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
@@ -165,11 +172,13 @@ require('head.php');
                 <h2 class="title" style="margin-bottom:15px;">
                     閲覧履歴
                 </h2>
+
                 <?php
-                if (!empty($dbProductHistoryData)) {
-                  debug('$dbProductHistoryDataの値:' . print_r($dbProductHistoryData, true));
-                  foreach ($dbProductHistoryData as $key) :
-                    ?>
+                if (empty($_SESSION['login_date'])) {
+                  if (!empty($dbProductHistoryData)) {
+                    debug('$dbProductHistoryDataの値:' . print_r($dbProductHistoryData, true));
+                    foreach ($dbProductHistoryData as $key) :
+                      ?>
                 <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $key['id'] : '?p_id=' . $key['id']; ?>" class="panel">
                     <div class="panel-head">
                         <img src="<?php echo sanitize($key['pic1']); ?>" alt="<?php echo sanitize($key['name']); ?>">
@@ -181,7 +190,26 @@ require('head.php');
                 <?php
               endforeach;
             }
-            ?>
+          } else {
+            if (!empty($dbProductWatchData)) {
+              debug('$dbProductWatchDataの値:' . print_r($dbProductWatchData, true));
+              foreach ($dbProductWatchData as $key) :
+                ?>
+                <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $key['id'] : '?p_id=' . $key['id']; ?>" class="panel">
+                    <div class="panel-head">
+                        <img src="<?php echo sanitize($key['pic1']); ?>" alt="<?php echo sanitize($key['name']); ?>">
+                    </div>
+                    <div class="panel-body">
+                        <p class="panel-title"><?php echo sanitize($key['name']); ?> <span class="price">¥<?php echo sanitize(number_format($key['price'])); ?></span></p>
+                    </div>
+                </a>
+                <?php
+              endforeach;
+            }
+          }
+          ?>
+
+
             </div>
 
         </section>

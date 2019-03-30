@@ -26,38 +26,61 @@ if (empty($viewData)) {
 debug('取得したDBデータ：' . print_r($viewData, true));
 
 //--閲覧履歴機能を作成--
-//閲覧履歴用に$p_idを配列に格納(MAX3)
-if (!empty($_SESSION['hist_log'])) {
-  $history = $_SESSION['hist_log'];
-  debug('hist_logがある場合の値:' . print_r($history, true));
 
-  //$p_idがすでにあれば古いのを消す
-  $target = array_search($p_id, $history, true);
+if (!empty($_SESSION['login_date'])) {
+  //login済みユーザー
+  debug('閲覧履歴作成:ログイン済みユーザー');
 
-  // if (isset($target)) {
-  // if (!empty($target)) {
-  if ($target !== false) { //array_searchで出力された添字が0の場合、ifの処理をスルーする場合があるので
-    debug('$targetがある場合の値:' . $target);
-    unset($history[$target]);
-    //indexを詰める
-    $history = array_values($history);
+  //DBのwatchテーブルに閲覧情報を格納していく
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+
+    // SQL文作成
+    $sql = 'INSERT INTO watch (user_id, product_id, create_date) VALUES (:u_id, :p_id, :date)';
+    $data = array(':u_id' => $_SESSION['user_id'], ':p_id' => $p_id, ':date' => date('Y-m-d H:i:s'));
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+  } catch (Exception $e) {
+    error_log('エラー発生:' . $e->getMessage());
+    $err_msg['common'] = MSG07;
   }
-
-  //配列の要素数が3つあれば配列の先頭を消す
-  if (count($history) == 3) {
-    array_shift($history);
-  }
-
-  //p_idを配列の最後尾に入れる
-  $history[] = $p_id;
 } else {
-  debug('hist_logが無いので初期値をセット');
-  $history = array();
-  $history[] = $p_id;
-}
-debug('$historyの出来上がり:' . print_r($history, true));
-$_SESSION['hist_log'] = $history;
+  //loginしていない場合
+  debug('閲覧履歴作成:ログインしていないユーザー');
 
+  //閲覧履歴用に$p_idを配列に格納(MAX3)
+  if (!empty($_SESSION['hist_log'])) {
+    $history = $_SESSION['hist_log'];
+    debug('hist_logがある場合の値:' . print_r($history, true));
+
+    //$p_idがすでにあれば古いのを消す
+    $target = array_search($p_id, $history, true);
+
+    // if (isset($target)) {
+    // if (!empty($target)) {
+    if ($target !== false) { //array_searchで出力された添字が0の場合、ifの処理をスルーする場合があるので
+      debug('$targetがある場合の値:' . $target);
+      unset($history[$target]);
+      //indexを詰める
+      $history = array_values($history);
+    }
+
+    //配列の要素数が3つあれば配列の先頭を消す
+    if (count($history) == 3) {
+      array_shift($history);
+    }
+
+    //p_idを配列の最後尾に入れる
+    $history[] = $p_id;
+  } else {
+    debug('hist_logが無いので初期値をセット');
+    $history = array();
+    $history[] = $p_id;
+  }
+  debug('$historyの出来上がり:' . print_r($history, true));
+  $_SESSION['hist_log'] = $history;
+}
 //--閲覧履歴機能を作成end--
 
 // post送信されていた場合
