@@ -426,11 +426,7 @@ function getProduct($u_id, $p_id)
     $sql = 'SELECT * FROM product WHERE user_id = :u_id AND id = :p_id AND delete_flg = 0';
     $data = array(':u_id' => $u_id, ':p_id' => $p_id);
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果のデータを１レコード返却
@@ -534,11 +530,7 @@ function getProductList($currentMinNum = 1, $category, $sort, $price, $span = 20
     $data = array();
     debug('ページング用SQL：' . $sql);
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果のデータを全レコードを格納
@@ -565,11 +557,7 @@ function getProductOne($p_id)
             FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
     $data = array(':p_id' => $p_id);
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果のデータを１レコード返却
@@ -594,11 +582,7 @@ function getMyProducts($u_id)
     $sql = 'SELECT * FROM product WHERE user_id = :u_id AND delete_flg = 0';
     $data = array(':u_id' => $u_id);
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果のデータを全レコード返却
@@ -622,11 +606,7 @@ function getMySaleProducts($u_id)
     $sql = 'SELECT * FROM product WHERE user_id = :u_id AND buy_flg = 1 AND delete_flg = 0';
     $data = array(':u_id' => $u_id);
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果のデータを全レコード返却
@@ -672,11 +652,7 @@ function getMsgsAndBord($id)
     $data = array(':id' => $id);
 
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果の全データを返却
@@ -736,11 +712,7 @@ function getCategory()
     $sql = 'SELECT * FROM category';
     $data = array();
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果の全データを返却
@@ -790,11 +762,7 @@ function getMyLike($u_id)
     $sql = 'SELECT * FROM `like` AS l LEFT JOIN product AS p ON l.product_id = p.id WHERE l.user_id = :u_id';
     $data = array(':u_id' => $u_id);
     // クエリ実行
-    $stmt = queryPost(
-      $dbh,
-      $sql,
-      $data
-    );
+    $stmt = queryPost($dbh, $sql, $data);
 
     if ($stmt) {
       // クエリ結果の全データを返却
@@ -886,11 +854,7 @@ function makeRandKey($length = 8)
 {
   static $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJLKMNOPQRSTUVWXYZ0123456789';
   $str = '';
-  for (
-    $i = 0;
-    $i < $length;
-    ++$i
-  ) {
+  for ($i = 0; $i < $length; ++$i) {
     $str .= $chars[mt_rand(0, 61)];
   }
   return $str;
