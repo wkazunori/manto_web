@@ -38,12 +38,10 @@ $currentMinNum = (($currentPageNum - 1) * $listSpan); //1ページ目なら(1-1)
 $dbProductData = getProductList($currentMinNum, $category, $sort, $price); //各種ソートフラグを渡して、プロダクトテーブルから取得する内容を絞る
 // DBからカテゴリデータを取得
 $dbCategoryData = getCategory();
-//debug('DBデータ：'.print_r($dbFormData,true));
-//debug('カテゴリデータ：'.print_r($dbCategoryData,true));
-$dbProductHistoryData = getProductHistoryList();
 
-// debug('productDataの確認：' . print_r($dbProductData, true));
-debug('HistoryDataの確認：' . print_r($dbProductHistoryData, true));
+//DBから閲覧履歴を取得
+$dbProductWatchData = getProductWatchList();
+debug('閲覧したデータの確認：' . print_r($dbProductWatchData, true));
 
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
@@ -165,10 +163,11 @@ require('head.php');
                 <h2 class="title" style="margin-bottom:15px;">
                     閲覧履歴
                 </h2>
+
                 <?php
-                if (!empty($dbProductHistoryData)) {
-                  debug('$dbProductHistoryDataの値:' . print_r($dbProductHistoryData, true));
-                  foreach ($dbProductHistoryData as $key) :
+                if (!empty($dbProductWatchData)) {
+                  debug('$dbProductWatchDataの値:' . print_r($dbProductWatchData, true));
+                  foreach ($dbProductWatchData as $key) :
                     ?>
                 <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $key['id'] : '?p_id=' . $key['id']; ?>" class="panel">
                     <div class="panel-head">
@@ -185,8 +184,6 @@ require('head.php');
             </div>
 
         </section>
-
-
 
     </div>
 

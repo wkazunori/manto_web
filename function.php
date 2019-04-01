@@ -328,55 +328,78 @@ function getUser($u_id)
   //  return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
-function getProductHistoryList() //プレスホルダ版←採用
+function getProductWatchList() //ユーザーの閲覧履歴を取得する
 {
-  debug('閲覧履歴を取得します。');
-  //例外処理
-  if (!empty($_SESSION['hist_log'])) {
+  if (!empty($_SESSION['login_date'])) {
+    //login済みユーザー
+    debug('ログイン済みユーザーの閲覧履歴を取得します。');
+    //例外処理
     try {
-      // DBへ接続
+      //DBへ接続
       $dbh = dbConnect();
+
       // SQL文作成
+      $sql = 'SELECT w.user_id ,w.product_id ,max(w.create_date), p.name,p.price,p.pic1 FROM watch as w LEFT JOIN product as p ON w.product_id = p.id GROUP BY w.user_id,w.product_id,p.name,p.price,p.pic1 HAVING user_id = :u_id ORDER BY max(w.create_date) DESC limit 3';
 
-      //-------------------------
-
-      $history = $_SESSION['hist_log'];
-      debug('$historyの確認：' . print_r($history, true));
-
-      $inClause = substr(str_repeat(',?', count($history)), 1); // '?,?,?'を作成
-
-      debug('inClauseの値：' . $inClause);
-
-      // foreach ($history as $val) {
-      //   $hist_id[] = $val;
-      // }
-
-      // debug('$hist_idの出来上がり確認：' . print_r($hist_id, true));
-
-      //-------------------------
-
-      $sql = "SELECT * FROM product WHERE id IN ({$inClause}) AND delete_flg = 0";
-
-      $sql .= ' order by field(id, ';
-      foreach ($history as $val) {
-        $sql .= $val . ',';
-      }
-      $sql = mb_substr($sql, 0, -1, "UTF-8");
-      $sql .= ')';
+      $data = array(':u_id' => $_SESSION['user_id']);
 
       // クエリ実行
-      $stmt = queryPost($dbh, $sql, $history);
+      $stmt = queryPost($dbh, $sql, $data);
 
       // クエリ結果のデータを返却
       if ($stmt) {
         // クエリ結果のデータを全レコードを格納
         $rst = $stmt->fetchAll();
+        if (!empty($rst)) {
+          $rst = array_reverse($rst, true); //DBから新しい情報を上から3つ取り出しており、一覧には並びを古→新にしたいのでreverseする
+        }
         return $rst;
       } else {
         return false;
       }
     } catch (Exception $e) {
       error_log('エラー発生:' . $e->getMessage());
+    }
+  } else {
+    debug('未ログインユーザーの閲覧履歴を取得します。');
+    //例外処理
+    if (!empty($_SESSION['hist_log'])) {
+      try {
+        // DBへ接続
+        $dbh = dbConnect();
+
+        //-------------------------
+        $history = $_SESSION['hist_log'];
+        debug('$historyの確認：' . print_r($history, true));
+
+        $inClause = substr(str_repeat(',?', count($history)), 1); // '?,?,?'を作成
+        debug('inClauseの値：' . $inClause);
+        //-------------------------
+
+        // SQL文作成
+        $sql = "SELECT * FROM product WHERE id IN ({$inClause}) AND delete_flg = 0";
+
+        $sql .= ' order by field(id, ';
+        foreach ($history as $val) {
+          $sql .= $val . ',';
+        }
+        $sql = mb_substr($sql, 0, -1, "UTF-8");
+        $sql .= ')';
+
+        // クエリ実行
+        $stmt = queryPost($dbh, $sql, $history);
+
+        // クエリ結果のデータを返却
+        if ($stmt) {
+          // クエリ結果のデータを全レコードを格納
+          $rst = $stmt->fetchAll();
+          return $rst;
+        } else {
+          return false;
+        }
+      } catch (Exception $e) {
+        error_log('エラー発生:' . $e->getMessage());
+      }
     }
   }
 }
@@ -833,7 +856,9 @@ function uploadImg($file, $key)
   debug('画像アップロード処理開始');
   debug('FILE情報：' . print_r($file, true));
 
-  if (isset($file['error']) && is_int($file['error'])) {
+  if (
+    isset($file['error']) && is_int($file['error'])
+  ) {
     try {
       // バリデーション
       // $file['error'] の値を確認。配列内には「UPLOAD_ERR_OK」などの定数が入っている。
@@ -924,7 +949,9 @@ function pagination($currentPageNum, $totalPageNum, $link = '', $pageColNum = 5)
     }
     echo '"><a href="?p=' . $i . $link . '">' . $i . '</a></li>';
   }
-  if ($currentPageNum != $maxPageNum && $maxPageNum > 1) {
+  if (
+    $currentPageNum != $maxPageNum && $maxPageNum > 1
+  ) {
     echo '<li class="list-item"><a href="?p=' . $maxPageNum . $link . '">&gt;</a></li>';
   }
   echo '</ul>';
