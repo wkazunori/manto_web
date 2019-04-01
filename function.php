@@ -338,7 +338,7 @@ function getProductWatchList() //ログイン済みユーザーの閲覧履歴�
       //DBへ接続
       $dbh = dbConnect();
 
-      // SQL分作成
+      // SQL文作成
       $sql = 'SELECT w.user_id ,w.product_id ,max(w.create_date), p.name,p.price,p.pic1 FROM watch as w LEFT JOIN product as p ON w.product_id = p.id GROUP BY w.user_id,w.product_id,p.name,p.price,p.pic1 HAVING user_id = :u_id ORDER BY max(w.create_date) DESC limit 3';
 
       $data = array(':u_id' => $_SESSION['user_id']);
@@ -350,6 +350,9 @@ function getProductWatchList() //ログイン済みユーザーの閲覧履歴�
       if ($stmt) {
         // クエリ結果のデータを全レコードを格納
         $rst = $stmt->fetchAll();
+        if (!empty($rst)) {
+          $rst = array_reverse($rst, true); //DBから新しい情報を上から3つ取り出しており、一覧には並びを古→新にしたいのでreverseする
+        }
         return $rst;
       } else {
         return false;
@@ -357,58 +360,46 @@ function getProductWatchList() //ログイン済みユーザーの閲覧履歴�
     } catch (Exception $e) {
       error_log('エラー発生:' . $e->getMessage());
     }
-  }
-}
+  } else {
+    debug('未ログインユーザーの閲覧履歴を取得します。');
+    //例外処理
+    if (!empty($_SESSION['hist_log'])) {
+      try {
+        // DBへ接続
+        $dbh = dbConnect();
 
-function getProductHistoryList() //未ログインユーザー用の閲覧履歴管理
-{
-  debug('未ログインユーザーの閲覧履歴を取得します。');
-  //例外処理
-  if (!empty($_SESSION['hist_log'])) {
-    try {
-      // DBへ接続
-      $dbh = dbConnect();
-      // SQL文作成
+        //-------------------------
+        $history = $_SESSION['hist_log'];
+        debug('$historyの確認：' . print_r($history, true));
 
-      //-------------------------
+        $inClause = substr(str_repeat(',?', count($history)), 1); // '?,?,?'を作成
+        debug('inClauseの値：' . $inClause);
+        //-------------------------
 
-      $history = $_SESSION['hist_log'];
-      debug('$historyの確認：' . print_r($history, true));
+        // SQL文作成
+        $sql = "SELECT * FROM product WHERE id IN ({$inClause}) AND delete_flg = 0";
 
-      $inClause = substr(str_repeat(',?', count($history)), 1); // '?,?,?'を作成
+        $sql .= ' order by field(id, ';
+        foreach ($history as $val) {
+          $sql .= $val . ',';
+        }
+        $sql = mb_substr($sql, 0, -1, "UTF-8");
+        $sql .= ')';
 
-      debug('inClauseの値：' . $inClause);
+        // クエリ実行
+        $stmt = queryPost($dbh, $sql, $history);
 
-      // foreach ($history as $val) {
-      //   $hist_id[] = $val;
-      // }
-
-      // debug('$hist_idの出来上がり確認：' . print_r($hist_id, true));
-
-      //-------------------------
-
-      $sql = "SELECT * FROM product WHERE id IN ({$inClause}) AND delete_flg = 0";
-
-      $sql .= ' order by field(id, ';
-      foreach ($history as $val) {
-        $sql .= $val . ',';
+        // クエリ結果のデータを返却
+        if ($stmt) {
+          // クエリ結果のデータを全レコードを格納
+          $rst = $stmt->fetchAll();
+          return $rst;
+        } else {
+          return false;
+        }
+      } catch (Exception $e) {
+        error_log('エラー発生:' . $e->getMessage());
       }
-      $sql = mb_substr($sql, 0, -1, "UTF-8");
-      $sql .= ')';
-
-      // クエリ実行
-      $stmt = queryPost($dbh, $sql, $history);
-
-      // クエリ結果のデータを返却
-      if ($stmt) {
-        // クエリ結果のデータを全レコードを格納
-        $rst = $stmt->fetchAll();
-        return $rst;
-      } else {
-        return false;
-      }
-    } catch (Exception $e) {
-      error_log('エラー発生:' . $e->getMessage());
     }
   }
 }
@@ -896,10 +887,7 @@ function uploadImg($file, $key)
       // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
       // image_type_to_extension関数はファイルの拡張子を取得するもの
       $path = 'uploads/' . sha1_file($file['tmp_name']) . image_type_to_extension($type);
-      if (!move_uploaded_file(
-        $file['tmp_name'],
-        $path
-      )) { //ファイルを移動する
+      if (!move_uploaded_file($file['tmp_name'], $path)) { //ファイルを移動する
         throw new RuntimeException('ファイル保存時にエラーが発生しました');
       }
       // 保存したファイルパスのパーミッション（権限）を変更する

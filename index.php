@@ -39,19 +39,9 @@ $dbProductData = getProductList($currentMinNum, $category, $sort, $price); //各
 // DBからカテゴリデータを取得
 $dbCategoryData = getCategory();
 
-//ログイン済みか非ログインで閲覧したデータの取得方法を分ける
-if (empty($_SESSION['login_date'])) {
-  // 非ログインユーザーが閲覧したデータが入っているSESSION情報を取り出す
-  $dbProductHistoryData = getProductHistoryList();
-  // debug('productDataの確認：' . print_r($dbProductData, true));
-} else {
-  // DBからログインユーザーが閲覧したデータを取り出す
-  $dbProductHistoryData = getProductWatchList();
-  if (!empty($dbProductHistoryData)) {
-    $dbProductHistoryData = array_reverse($dbProductHistoryData, true); //DBから新しい情報を上から3つ取り出しており、一覧には並びを古→新にしたいのでreverseする
-  }
-}
-debug('閲覧したデータの確認：' . print_r($dbProductHistoryData, true));
+//DBから閲覧履歴を取得
+$dbProductWatchData = getProductWatchList();
+debug('閲覧したデータの確認：' . print_r($dbProductWatchData, true));
 
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
@@ -175,9 +165,9 @@ require('head.php');
                 </h2>
 
                 <?php
-                if (!empty($dbProductHistoryData)) {
-                  debug('$dbProductHistoryDataの値:' . print_r($dbProductHistoryData, true));
-                  foreach ($dbProductHistoryData as $key) :
+                if (!empty($dbProductWatchData)) {
+                  debug('$dbProductWatchDataの値:' . print_r($dbProductWatchData, true));
+                  foreach ($dbProductWatchData as $key) :
                     ?>
                 <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam() . '&p_id=' . $key['id'] : '?p_id=' . $key['id']; ?>" class="panel">
                     <div class="panel-head">
