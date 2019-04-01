@@ -328,7 +328,7 @@ function getUser($u_id)
   //  return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
-function getProductWatchList() //ログイン済みユーザーの閲覧履歴管理
+function getProductWatchList() //ユーザーの閲覧履歴を取得する
 {
   if (!empty($_SESSION['login_date'])) {
     //login済みユーザー
