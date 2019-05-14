@@ -174,7 +174,7 @@
           $("#js-email-msg").text("");
         }
       }).always(function(data) { //ajax終了後に登録ボタンの許可するかを判定
-        // removeDisplayLoad();
+        removeDisplayLoad();
         validAllSign(emailRst, passRst, passReRst);
       });
     }
