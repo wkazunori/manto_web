@@ -11,7 +11,9 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -76,7 +78,7 @@ header h1 a {
   position: relative;
   float: right;
   width: 500px;
-  height: 90px;
+  height: 80px;
 }
 
 nav a {
@@ -90,22 +92,36 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
 #top-nav ul {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-  width: 450px;
   height: 80px;
-  list-style: none;
-  line-height: 80px;
 }
 
-#top-nav ul li {
+#top-nav ul .js-menu-main {
   float: right;
+  color: #fff;
+  margin-right: 20px;
+  height: 80px;
+  display: block;
+  line-height: 80px;
+  cursor: pointer;
 }
+
+#top-nav .js-menu-sub {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 150px;
+  list-style: none;
+  text-align: right;
+  display: none;
+}
+
+#top-nav .js-menu-sub li {
+  background: #b6a489;
+  border-top: 0.5px solid #fff;
+  border-bottom: 0.5px solid #fff;
+}
+
 /*========================================
   レイアウト
 ========================================*/

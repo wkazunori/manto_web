@@ -239,6 +239,17 @@
       $("#js-load-icon").remove();
     }
 
+    //================
+    //マイページのメニュー ドロップダウン化
+    //================
+    $(".js-menu-main").hover(
+      function() {
+        $(".js-menu-sub:not(:animated)", this).slideDown();
+      },
+      function() {
+        $(".js-menu-sub:not(:animated)", this).slideUp();
+      });
+
   });
 </script>
 </body>
