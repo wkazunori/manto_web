@@ -112,21 +112,40 @@
       validSign();
     });
 
-    function validSign() {
+    function validEmailSign() {
 
       var emailRegExp = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/;
       var passRegExp = /^([a-zA-Z0-9]{6,})$/;
 
+      //emailのバリデーション
       var email = $("#js-sign-email").val();
+      //①email形式かチェック
       if (email) {
         var emailValidRst = emailRegExp.test(email);
         if (!emailValidRst) {
           $("#js-email-msg").text(validReturn.emailMsg);
         } else {
           $("#js-email-msg").text("");
+
+          $.when()
+          //②emailが重複してるかチェック
+          $.ajax({
+            type: "post",
+            url: "ajaxEmailDup.php",
+            dataType: "json",
+            data: {
+              'emailDup': email
+            }
+          }).then(function(data) {
+            if (data) {
+              console.log(data);
+              $("#js-email-msg").text(data.email);
+            }
+          });
         }
       }
 
+      //passのバリデーション
       var pass = $("#js-sign-pass").val();
       if (pass) {
         var passValidRst = passRegExp.test(pass);
@@ -137,6 +156,7 @@
         }
       }
 
+      //passReのバリデーション
       var passRe = $("#js-sign-passRe").val();
       var passReValidRst = "";
       if (passRe) {
@@ -149,12 +169,36 @@
         }
       }
 
+      // ①形式のチェックを通過してたらtrue
       if (emailValidRst && passValidRst && passReValidRst) {
-        $('#js-sign-button').prop("disabled", false);
+        var validRst = true;
+      }
+
+      // ②さらに重複チェックでエラーメッセージが無かったらtrue
+      var emailValidMsg = $("#js-email-msg").val();
+      if (!emailValidMsg) {
+        var validMsg = true;
+      }
+
+      //③両方trueで登録ボタンのdisabledを解除
+      if (validRst && validMsg) {
+        $('#js-sign-button').prop("disabled", false); //表示
       } else {
-        $('#js-sign-button').prop("disabled", true);
+        $('#js-sign-button').prop("disabled", true); //非表示
       }
     }
+
+    //ローディングを表示
+    // function displayLoad() {
+    //   var loadIconSrc = "img/gif-load.gif";
+    //   var loadIconView = "<img id=\"js-load-icon\" src=\"${loadIconSrc}\">";
+
+    //   $("#js-sign-email").after(loadIconView);
+    // }
+    //ローディングを非表示
+    // function removeDisplayLoad() {
+    //   $("#js-load-icon").remove();
+    // }
 
   });
 </script>
