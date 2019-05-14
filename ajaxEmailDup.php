@@ -22,6 +22,7 @@ if (isset($_POST['emailDup'])) {
 
   validEmailDup($emailDup);
   debug("err_msgの値" . print_r($err_msg['email'], true));
+
   echo json_encode($err_msg);
 }
 debug('Ajax処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');

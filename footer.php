@@ -103,102 +103,141 @@
     }
 
     $('#js-sign-email').on("blur", function() {
-      validSign();
+      var emailRst = validEmailSign();
+      var passRst = validPassSign();
+      var passReRst = validPassReSign();
+      if (emailRst) {
+        callAjaxEmailDup(emailRst, passRst, passReRst);
+      }
     });
+
     $('#js-sign-pass').on("blur", function() {
-      validSign();
+      var emailRst = validEmailSign();
+      var passRst = validPassSign();
+      var passReRst = validPassReSign();
+      if (emailRst) {
+        callAjaxEmailDup(emailRst, passRst, passReRst);
+      }
     });
+
     $('#js-sign-passRe').on("blur", function() {
-      validSign();
+      var emailRst = validEmailSign();
+      var passRst = validPassSign();
+      var passReRst = validPassReSign();
+      if (emailRst) {
+        callAjaxEmailDup(emailRst, passRst, passReRst);
+      }
     });
 
     function validEmailSign() {
-
-      var emailRegExp = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/;
-      var passRegExp = /^([a-zA-Z0-9]{6,})$/;
-
       //emailのバリデーション
+      var emailRegExp = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/;
+
       var email = $("#js-sign-email").val();
-      //①email形式かチェック
+      //email形式かチェック
       if (email) {
         var emailValidRst = emailRegExp.test(email);
         if (!emailValidRst) {
           $("#js-email-msg").text(validReturn.emailMsg);
+          var rst = "";
+          return rst;
         } else {
           $("#js-email-msg").text("");
-
-          $.when()
-          //②emailが重複してるかチェック
-          $.ajax({
-            type: "post",
-            url: "ajaxEmailDup.php",
-            dataType: "json",
-            data: {
-              'emailDup': email
-            }
-          }).then(function(data) {
-            if (data) {
-              console.log(data);
-              $("#js-email-msg").text(data.email);
-            }
-          });
+          var rst = true;
+          return rst;
         }
       }
+    }
 
+    function ajaxEmailDup() {
+      var email = $("#js-sign-email").val();
+      return $.ajax({
+        type: "post",
+        url: "ajaxEmailDup.php",
+        dataType: "json",
+        data: {
+          'emailDup': email
+        },
+        //リクエストが完了するまで実行される
+        beforeSend: function() {
+          displayLoad();
+        }
+      })
+    }
+
+    function callAjaxEmailDup(emailRst, passRst, passReRst) {
+      ajaxEmailDup().done(function(data) {
+        if (data) { //重複した場合エラーメッセージが返ってくる
+          $("#js-email-msg").text(data.email);
+          emailRst = "";
+        } else { //エラーメッセージが無い → dataが無い場合は重複なし判定
+          $("#js-email-msg").text("");
+        }
+      }).always(function(data) { //ajax終了後に登録ボタンの許可するかを判定
+        // removeDisplayLoad();
+        validAllSign(emailRst, passRst, passReRst);
+      });
+    }
+
+    function validPassSign() {
       //passのバリデーション
+      var passRegExp = /^([a-zA-Z0-9]{6,})$/;
       var pass = $("#js-sign-pass").val();
       if (pass) {
         var passValidRst = passRegExp.test(pass);
         if (!passValidRst) {
           $("#js-pass-msg").text(validReturn.passMsg);
+          var rst = "";
+          return rst;
         } else {
           $("#js-pass-msg").text("");
+          var rst = true;
+          return rst;
         }
       }
+    }
 
+    function validPassReSign() {
       //passReのバリデーション
+      var pass = $("#js-sign-pass").val();
       var passRe = $("#js-sign-passRe").val();
-      var passReValidRst = "";
+
       if (passRe) {
         if (pass === passRe) {
-          passReValidRst = true;
           $("#js-passRe-msg").text("");
+          var rst = true;
+          return rst;
         } else {
-          passReValidRst = false;
           $("#js-passRe-msg").text(validReturn.passReMsg);
+          var rst = "";
+          return rst;
         }
       }
+    }
 
-      // ①形式のチェックを通過してたらtrue
-      if (emailValidRst && passValidRst && passReValidRst) {
-        var validRst = true;
-      }
+    function validAllSign(a, b, c) {
 
-      // ②さらに重複チェックでエラーメッセージが無かったらtrue
-      var emailValidMsg = $("#js-email-msg").val();
-      if (!emailValidMsg) {
-        var validMsg = true;
-      }
-
-      //③両方trueで登録ボタンのdisabledを解除
-      if (validRst && validMsg) {
+      console.log("a:" + a);
+      console.log("b:" + b);
+      console.log("c:" + c);
+      //全引数がtrueで登録ボタンのdisabledを解除
+      if (a && b && c) {
         $('#js-sign-button').prop("disabled", false); //表示
       } else {
         $('#js-sign-button').prop("disabled", true); //非表示
       }
     }
-
     //ローディングを表示
-    // function displayLoad() {
-    //   var loadIconSrc = "img/gif-load.gif";
-    //   var loadIconView = "<img id=\"js-load-icon\" src=\"${loadIconSrc}\">";
+    function displayLoad() {
+      // var loadIconSrc = "img/gif-load.gif"; //変数展開失敗 原因聞きたい
+      var loadIconView = "<img id=\"js-load-icon\" src=\"img/gif-load.gif\">";
+      $("#js-sign-email").after(loadIconView);
+    }
 
-    //   $("#js-sign-email").after(loadIconView);
-    // }
-    //ローディングを非表示
-    // function removeDisplayLoad() {
-    //   $("#js-load-icon").remove();
-    // }
+    // ローディングを非表示
+    function removeDisplayLoad() {
+      $("#js-load-icon").remove();
+    }
 
   });
 </script>
