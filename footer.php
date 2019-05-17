@@ -102,131 +102,115 @@
       'passReMsg': 'パスワード（再入力）が合っていません',
     }
 
-    $('#js-sign-email').on("blur", function() {
-      var emailRst = validEmailSign();
-      var passRst = validPassSign();
-      var passReRst = validPassReSign();
-      if (emailRst) {
-        callAjaxEmailDup(emailRst, passRst, passReRst);
-      }
-    });
+    var validEmailFormat = false;
+    var validEmailDuplication = false;
+    var validPasswordFormat = false;
+    var validPasswordRe = false;
 
-    $('#js-sign-pass').on("blur", function() {
-      var emailRst = validEmailSign();
-      var passRst = validPassSign();
-      var passReRst = validPassReSign();
-      if (emailRst) {
-        callAjaxEmailDup(emailRst, passRst, passReRst);
-      }
-    });
-
-    $('#js-sign-passRe').on("blur", function() {
-      var emailRst = validEmailSign();
-      var passRst = validPassSign();
-      var passReRst = validPassReSign();
-      if (emailRst) {
-        callAjaxEmailDup(emailRst, passRst, passReRst);
-      }
-    });
-
-    function validEmailSign() {
-      //emailのバリデーション
-      var emailRegExp = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/;
-
-      var email = $("#js-sign-email").val();
-      //email形式かチェック
-      if (email) {
-        var emailValidRst = emailRegExp.test(email);
-        if (!emailValidRst) {
-          $("#js-email-msg").text(validReturn.emailMsg);
-          var rst = "";
-          return rst;
-        } else {
-          $("#js-email-msg").text("");
-          var rst = true;
-          return rst;
-        }
-      }
-    }
-
-    function ajaxEmailDup() {
-      var email = $("#js-sign-email").val();
-      return $.ajax({
-        type: "post",
-        url: "ajaxEmailDup.php",
-        dataType: "json",
-        data: {
-          'emailDup': email
-        },
-        //リクエストが完了するまで実行される
-        beforeSend: function() {
-          displayLoad();
-        }
-      })
-    }
-
-    function callAjaxEmailDup(emailRst, passRst, passReRst) {
-      ajaxEmailDup().done(function(data) {
-        if (data) { //重複した場合エラーメッセージが返ってくる
-          $("#js-email-msg").text(data.email);
-          emailRst = "";
-        } else { //エラーメッセージが無い → dataが無い場合は重複なし判定
-          $("#js-email-msg").text("");
-        }
-      }).always(function(data) { //ajax終了後に登録ボタンの許可するかを判定
-        removeDisplayLoad();
-        validAllSign(emailRst, passRst, passReRst);
-      });
-    }
-
-    function validPassSign() {
-      //passのバリデーション
-      var passRegExp = /^([a-zA-Z0-9]{6,})$/;
-      var pass = $("#js-sign-pass").val();
-      if (pass) {
-        var passValidRst = passRegExp.test(pass);
-        if (!passValidRst) {
-          $("#js-pass-msg").text(validReturn.passMsg);
-          var rst = "";
-          return rst;
-        } else {
-          $("#js-pass-msg").text("");
-          var rst = true;
-          return rst;
-        }
-      }
-    }
-
-    function validPassReSign() {
-      //passReのバリデーション
-      var pass = $("#js-sign-pass").val();
-      var passRe = $("#js-sign-passRe").val();
-
-      if (passRe) {
-        if (pass === passRe) {
-          $("#js-passRe-msg").text("");
-          var rst = true;
-          return rst;
-        } else {
-          $("#js-passRe-msg").text(validReturn.passReMsg);
-          var rst = "";
-          return rst;
-        }
-      }
-    }
-
-    function validAllSign(a, b, c) {
-
-      console.log("a:" + a);
-      console.log("b:" + b);
-      console.log("c:" + c);
-      //全引数がtrueで登録ボタンのdisabledを解除
-      if (a && b && c) {
+    function updateButtonStatus (){
+      if (validEmailFormat === true
+           && validEmailDuplication === true
+           && validPasswordFormat === true
+           && validPasswordRe === true) {
         $('#js-sign-button').prop("disabled", false); //表示
       } else {
         $('#js-sign-button').prop("disabled", true); //非表示
       }
     }
+
+    // メールアドレス入力のチェック
+    $('#js-sign-email').on("blur", function() {
+
+      var emailRegExp = /^[A-Za-z0-9]{1}[A-Za-z0-9_.-]*@{1}[A-Za-z0-9_.-]{1,}\.[A-Za-z0-9]{1,}$/;
+      var email = $("#js-sign-email").val();
+
+      if(email == null){
+        return;
+      }
+
+      //email形式かチェック
+      var emailValidRst = emailRegExp.test(email);
+      if (emailValidRst === true) {
+        $("#js-email-msg").text("");
+        validEmailFormat = true;
+      } else {
+        $("#js-email-msg").text(validReturn.emailMsg);
+        validEmailFormat = false;
+      }
+
+      console.log("Finish Email Format Check");
+
+      // メールアドレスの重複チェック
+      if (validEmailFormat === true){
+        console.log("Before Ajax");
+        $.ajax({
+          type: "post",
+          url: "ajaxEmailDup.php",
+          dataType: "json",
+          data: {
+            'emailDup': email
+        },
+        //リクエストが完了するまで実行される
+        beforeSend: function() {
+          displayLoad();
+        }
+        }).done(function(data) {
+        if (data != null && data.length == 0) {
+          console.log("Duplication OK");
+          $("#js-email-msg").text("");
+          validEmailDuplication = true;
+        } else {
+          console.log("Duplication Error");
+          $("#js-email-msg").text(data.email);
+          validEmailDuplication = false;
+        }
+      }).fail(function(){
+        $("#js-email-msg").text("通信エラーが発生しました");
+        validEmailDuplication = false;
+      }).always(function(data) { //ajax終了後に登録ボタンの許可するかを判定
+        removeDisplayLoad();
+        updateButtonStatus();
+      });
+      }
+    });
+    // パスワードの入力チェック
+    $('#js-sign-pass').on("blur", function() {
+      var passRegExp = /^([a-zA-Z0-9]{6,})$/;
+      var pass = $("#js-sign-pass").val();
+
+      if(pass == null){
+        return;
+      }
+
+      var passValidRst = passRegExp.test(pass);
+      if (passValidRst === true) {
+        $("#js-pass-msg").text("");
+        validPasswordFormat = true;
+      } else {
+        $("#js-pass-msg").text(validReturn.passMsg);
+        validPasswordFormat = false;
+      }
+      updateButtonStatus();
+    });
+    // パスワードの再入力チェック
+    $('#js-sign-passRe').on("blur", function() {
+      var pass = $("#js-sign-pass").val();
+      var passRe = $("#js-sign-passRe").val();
+
+      if(passRe == null){
+        return;
+      }
+
+      if (pass === passRe) {
+        $("#js-passRe-msg").text("");
+        validPasswordRe = true;
+      } else {
+        $("#js-passRe-msg").text(validReturn.passReMsg);
+        validPasswordRe = false;
+      }
+      updateButtonStatus();
+    });
+
     //ローディングを表示
     function displayLoad() {
       // var loadIconSrc = "img/gif-load.gif"; //変数展開失敗 原因聞きたい
